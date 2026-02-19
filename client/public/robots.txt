@@ -1,0 +1,45 @@
+# robots.txt for ALFA NERO Superyacht Website
+# https://alfaneroyacht.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://alfaneroyacht.com/sitemap-index.xml
+Sitemap: https://alfaneroyacht.com/sitemap.xml
+Sitemap: https://alfaneroyacht.com/image-sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block admin/api routes from indexing
+Disallow: /api/
+Disallow: /_core/
+Disallow: /admin
+Disallow: /admin/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block AI training crawlers (optional - remove if you want AI indexing)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
