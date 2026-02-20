@@ -103,6 +103,46 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Entertainment -->
+  <url>
+    <loc>https://alfaneroyacht.com/entertainment</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Dining -->
+  <url>
+    <loc>https://alfaneroyacht.com/dining</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Crew Spaces -->
+  <url>
+    <loc>https://alfaneroyacht.com/crew-spaces</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Full Tour -->
+  <url>
+    <loc>https://alfaneroyacht.com/full-tour</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Broker -->
+  <url>
+    <loc>https://alfaneroyacht.com/broker</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Digital Brochure -->
   <url>
     <loc>https://alfaneroyacht.com/brochure</loc>
