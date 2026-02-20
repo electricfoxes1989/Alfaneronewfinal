@@ -61,7 +61,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2007",
     month: "Apr",
     title: "Delivery",
-    description: "ALFA NERO delivered to owner. 82 metres of innovation ready for her maiden voyage.",
+    description: "ALFA NERO delivered to owner. 81 metres of innovation ready for her maiden voyage.",
     highlight: true,
   },
   {

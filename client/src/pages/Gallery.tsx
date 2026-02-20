@@ -217,8 +217,8 @@ export default function Gallery() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "VideoObject",
-            "name": "ALFA NERO - 82m Oceanco Superyacht Video Tour",
-            "description": "Exclusive video presentation of ALFA NERO, an iconic 82-metre Oceanco superyacht featuring award-winning design by Nuvolari Lenard and interiors by Alberto Pinto. Built 2007, comprehensively refitted 2024.",
+            "name": "ALFA NERO - 81m Oceanco Superyacht Video Tour",
+            "description": "Exclusive video presentation of ALFA NERO, an iconic 81-metre Oceanco superyacht featuring award-winning design by Nuvolari Lenard and interiors by Alberto Pinto. Built 2007, comprehensively refitted 2024.",
             "thumbnailUrl": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JmDwffKfVFfBJjPr.webp",
             "uploadDate": "2025-01-15",
             "contentUrl": "https://www.youtube.com/watch?v=eXXwZUQ4et0",

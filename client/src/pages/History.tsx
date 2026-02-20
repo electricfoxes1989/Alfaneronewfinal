@@ -65,7 +65,7 @@ export default function History() {
             </p>
 
             <p>
-              The brief was direct: combine design innovation with serious engineering and genuine comfort for extended Mediterranean cruising. The result, a collaboration between <Link href="/exterior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Nuvolari Lenard</Link>, <Link href="/interior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Alberto Pinto</Link>, and Azure Yacht Design and Naval Architecture, redefined what an 82-metre yacht could be.
+              The brief was direct: combine design innovation with serious engineering and genuine comfort for extended Mediterranean cruising. The result, a collaboration between <Link href="/exterior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Nuvolari Lenard</Link>, <Link href="/interior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Alberto Pinto</Link>, and Azure Yacht Design and Naval Architecture, redefined what an 81-metre yacht could be.
             </p>
           </article>
 

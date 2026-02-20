@@ -165,7 +165,7 @@ export default function Home() {
               <p className="section-label mb-4">The Vessel</p>
               <h2 className="text-foreground mb-8" style={{ fontFamily: "'Cantata One', serif" }}>An Oceanco Icon</h2>
               <p className="text-lg leading-relaxed mb-6 font-light">
-                A multi-award-winning 82-metre superyacht built by Oceanco and originally commissioned by Greek shipping magnate Theodore Angelopoulos, ALFA NERO remains a benchmark in her class almost two decades after launch. Comprehensively refitted in 2024, she is presented today in strong technical and operational condition.
+                A multi-award-winning 81-metre superyacht built by Oceanco and originally commissioned by Greek shipping magnate Theodore Angelopoulos, ALFA NERO remains a benchmark in her class almost two decades after launch. Comprehensively refitted in 2024, she is presented today in strong technical and operational condition.
               </p>
               <p className="text-base leading-relaxed text-foreground/60 font-light">
                 Winner of seven major industry awards including Best Interior Design and Best Exterior Styling at the World Superyacht Awards, ALFA NERO offers proven charter capability, and a layout suited to both private ownership and commercial use. She represents a rare opportunity to acquire a vessel of genuine pedigree at her strongest point since delivery.
@@ -390,7 +390,7 @@ export default function Home() {
                 {/* Side profile for desktop */}
                 <img 
                   src="/images/alfa-nero-line-drawing.webp" 
-                  alt="ALFA NERO 82m Oceanco superyacht technical line drawing with specifications" 
+                  alt="ALFA NERO 81m Oceanco superyacht technical line drawing with specifications" 
                   className="hidden md:block w-full h-auto"
                 />
                 {/* 3D perspective drawing for mobile */}

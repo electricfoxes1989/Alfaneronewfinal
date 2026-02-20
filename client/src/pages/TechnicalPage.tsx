@@ -163,7 +163,7 @@ export default function TechnicalPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex justify-between py-3 border-b border-foreground/10">
                   <span className="text-foreground/60">Length Overall</span>
-                  <span className="font-light">82 metres / 269 feet</span>
+                  <span className="font-light">81.27 metres / 266.6 feet</span>
                 </div>
                 <div className="flex justify-between py-3 border-b border-foreground/10">
                   <span className="text-foreground/60">Beam</span>
