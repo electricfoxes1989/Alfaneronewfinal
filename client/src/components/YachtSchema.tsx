@@ -13,7 +13,7 @@ export default function YachtSchema() {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "ALFA NERO",
-      "description": "81-metre Oceanco superyacht built in 2007 and comprehensively refitted in 2024. Designed by Nuvolari Lenard with interior by Alberto Pinto. Features the world's first superyacht infinity pool, accommodates 12 guests in 6 staterooms, and includes comprehensive water toys collection.",
+      "description": "82-metre Oceanco superyacht built in 2007 and comprehensively refitted in 2024. Designed by Nuvolari Lenard with interior by Alberto Pinto. Features the world's first superyacht infinity pool, accommodates 12 guests in 6 staterooms, and includes comprehensive water toys collection.",
       "brand": {
         "@type": "Brand",
         "name": "Oceanco"
@@ -44,7 +44,7 @@ export default function YachtSchema() {
         {
           "@type": "PropertyValue",
           "name": "Length Overall",
-          "value": "81.27 metres / 266.6 feet"
+          "value": "82 metres / 269 feet"
         },
         {
           "@type": "PropertyValue",

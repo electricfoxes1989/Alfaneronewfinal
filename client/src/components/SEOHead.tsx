@@ -74,7 +74,7 @@ export default function SEOHead({
     
     // Cleanup - restore defaults on unmount
     return () => {
-      document.title = 'ALFA NERO | 81m Oceanco Superyacht For Sale';
+      document.title = 'ALFA NERO | 82m Oceanco Superyacht For Sale';
       if (canonical) canonical.setAttribute('href', 'https://alfaneroyacht.com/');
       if (preloadLink) {
         document.head.removeChild(preloadLink);
@@ -91,8 +91,8 @@ export default function SEOHead({
  */
 export const SEO_CONFIG = {
   home: {
-    title: 'ALFA NERO | 81m Oceanco Superyacht For Sale',
-    description: 'ALFA NERO is an 81-metre Oceanco superyacht for sale. Award-winning design by Nuvolari Lenard, interiors by Alberto Pinto, infinity pool. Built 2007, refitted 2024.'
+    title: 'ALFA NERO | 82m Oceanco Superyacht For Sale',
+    description: 'ALFA NERO is an 82-metre Oceanco superyacht for sale. Award-winning design by Nuvolari Lenard, interiors by Alberto Pinto, infinity pool. Built 2007, refitted 2024.'
   },
   history: {
     title: 'History & Provenance',
@@ -100,7 +100,7 @@ export const SEO_CONFIG = {
   },
   technical: {
     title: 'Technical Specifications',
-    description: 'ALFA NERO technical specifications: 81.27m LOA, 14.2m beam, 2,159 GT, twin MTU 20V 4000 M91 engines, 20 knots top speed, 5,500nm range. 12 guests in 6 staterooms.'
+    description: 'ALFA NERO technical specifications: 82m LOA, 14.2m beam, 2,159 GT, twin MTU 20V 4000 M91 engines, 20 knots top speed, 5,500nm range. 12 guests in 6 staterooms.'
   },
   interior: {
     title: 'Interior Design by Alberto Pinto',
@@ -116,7 +116,7 @@ export const SEO_CONFIG = {
   },
   gallery: {
     title: 'Photo Gallery',
-    description: 'High-resolution photography of ALFA NERO superyacht. Exterior, interior, aerial, and lifestyle images of this 81-metre Oceanco vessel.'
+    description: 'High-resolution photography of ALFA NERO superyacht. Exterior, interior, aerial, and lifestyle images of this 82-metre Oceanco vessel.'
   },
 
   masterCabin: {

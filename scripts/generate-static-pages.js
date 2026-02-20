@@ -27,12 +27,12 @@ const pages = [
   {
     path: '/technical',
     title: 'Technical Specifications | ALFA NERO',
-    description: 'ALFA NERO technical specifications: 81.27m LOA, 14.2m beam, 2,159 GT, twin MTU 20V 4000 M91 engines, 20 knots top speed, 5,500nm range. 12 guests in 6 staterooms.',
+    description: 'ALFA NERO technical specifications: 82m LOA, 14.2m beam, 2,159 GT, twin MTU 20V 4000 M91 engines, 20 knots top speed, 5,500nm range. 12 guests in 6 staterooms.',
   },
   {
     path: '/gallery',
     title: 'Photo Gallery | ALFA NERO',
-    description: 'High-resolution photography of ALFA NERO superyacht. Exterior, interior, aerial, and lifestyle images of this 81-metre Oceanco vessel.',
+    description: 'High-resolution photography of ALFA NERO superyacht. Exterior, interior, aerial, and lifestyle images of this 82-metre Oceanco vessel.',
   },
   {
     path: '/exterior-designer',
@@ -92,17 +92,17 @@ const pages = [
   {
     path: '/full-tour',
     title: 'Full Video Tour | ALFA NERO',
-    description: 'Take a complete video tour of ALFA NERO, the 81-metre Oceanco superyacht. Explore every deck, cabin, and living space in this exclusive walkthrough.',
+    description: 'Take a complete video tour of ALFA NERO, the 82-metre Oceanco superyacht. Explore every deck, cabin, and living space in this exclusive walkthrough.',
   },
   {
     path: '/broker',
     title: 'Broker Information | ALFA NERO',
-    description: 'Broker details and acquisition information for ALFA NERO, an 81-metre Oceanco superyacht. Contact information for viewing arrangements and sale enquiries.',
+    description: 'Broker details and acquisition information for ALFA NERO, an 82-metre Oceanco superyacht. Contact information for viewing arrangements and sale enquiries.',
   },
   {
     path: '/brochure',
     title: 'Digital Brochure | ALFA NERO',
-    description: 'Download the ALFA NERO digital brochure. Comprehensive overview of this 81-metre Oceanco superyacht including specifications, design, accommodations, and amenities.',
+    description: 'Download the ALFA NERO digital brochure. Comprehensive overview of this 82-metre Oceanco superyacht including specifications, design, accommodations, and amenities.',
   },
   {
     path: '/exterior',

@@ -65,7 +65,7 @@ export default function History() {
             </p>
 
             <p>
-              The brief was direct: combine design innovation with serious engineering and genuine comfort for extended Mediterranean cruising. The result, a collaboration between <Link href="/exterior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Nuvolari Lenard</Link>, <Link href="/interior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Alberto Pinto</Link>, and Azure Yacht Design and Naval Architecture, redefined what an 81-metre yacht could be.
+              The brief was direct: combine design innovation with serious engineering and genuine comfort for extended Mediterranean cruising. The result, a collaboration between <Link href="/exterior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Nuvolari Lenard</Link>, <Link href="/interior-designer" className="text-foreground hover:text-red-600 transition-colors duration-300">Alberto Pinto</Link>, and Azure Yacht Design and Naval Architecture, redefined what an 82-metre yacht could be.
             </p>
           </article>
 
@@ -84,7 +84,7 @@ export default function History() {
 
             <h2>Construction & Launch</h2>
             <p>
-              Construction began in 2004 at Oceanco's Alblasserdam facility in the Netherlands, where the yard had been building custom superyachts since 1987. Project Y702, as she was known internally, represented the most ambitious undertaking in the yard's history at that point, an 81-metre vessel that would push the boundaries of what was technically possible.
+              Construction began in 2004 at Oceanco's Alblasserdam facility in the Netherlands, where the yard had been building custom superyachts since 1987. Project Y702, as she was known internally, represented the most ambitious undertaking in the yard's history at that point, an 82-metre vessel that would push the boundaries of what was technically possible.
             </p>
             
             <p>

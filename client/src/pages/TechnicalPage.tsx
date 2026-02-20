@@ -23,7 +23,7 @@ export default function TechnicalPage() {
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead 
         title="Technical Specifications | ALFA NERO"
-        description="Complete technical specifications for ALFA NERO: 81.27m length, 2,159 GT, twin MTU engines, 20 knot max speed, 5,500nm range, 12 guests in 6 staterooms."
+        description="Complete technical specifications for ALFA NERO: 82m length, 2,159 GT, twin MTU engines, 20 knot max speed, 5,500nm range, 12 guests in 6 staterooms."
       
         preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JnaEPBZmZHEIWFkA.webp"
       />
@@ -41,7 +41,7 @@ export default function TechnicalPage() {
                 "name": "What is the length of ALFA NERO?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "ALFA NERO has a length overall (LOA) of 81.27 metres (267 feet), making her one of the most impressive superyachts built by Oceanco."
+                  "text": "ALFA NERO has a length overall (LOA) of 82 metres (267 feet), making her one of the most impressive superyachts built by Oceanco."
                 }
               },
               {
@@ -163,7 +163,7 @@ export default function TechnicalPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex justify-between py-3 border-b border-foreground/10">
                   <span className="text-foreground/60">Length Overall</span>
-                  <span className="font-light">81.27 metres / 266.6 feet</span>
+                  <span className="font-light">82 metres / 269 feet</span>
                 </div>
                 <div className="flex justify-between py-3 border-b border-foreground/10">
                   <span className="text-foreground/60">Beam</span>

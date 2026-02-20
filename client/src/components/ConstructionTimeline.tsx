@@ -61,7 +61,7 @@ const timelineEvents: TimelineEvent[] = [
     year: "2007",
     month: "Apr",
     title: "Delivery",
-    description: "ALFA NERO delivered to owner. 81 metres of innovation ready for her maiden voyage.",
+    description: "ALFA NERO delivered to owner. 82 metres of innovation ready for her maiden voyage.",
     highlight: true,
   },
   {
@@ -215,7 +215,7 @@ export default function ConstructionTimeline() {
             <div className="text-[0.58rem] tracking-[0.3em] uppercase text-white/35 mt-1">Years Build</div>
           </div>
           <div className="text-center">
-            <div className="font-cantata font-light text-2xl md:text-3xl text-white leading-none">81m</div>
+            <div className="font-cantata font-light text-2xl md:text-3xl text-white leading-none">82m</div>
             <div className="text-[0.58rem] tracking-[0.3em] uppercase text-white/35 mt-1">Length</div>
           </div>
           <div className="text-center">

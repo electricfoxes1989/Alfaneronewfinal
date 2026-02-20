@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-white text-black border-t border-gray-200">
       {/* Hidden listing info for search engines */}
       <div className="sr-only" aria-hidden="true">
-        ALFA NERO, 81-metre Oceanco superyacht. Available for acquisition.
+        ALFA NERO, 82-metre Oceanco superyacht. Available for acquisition.
       </div>
       
       {/* Main Footer Content */}
@@ -26,7 +26,7 @@ export default function Footer() {
               ALFA NERO
             </h4>
             <p className="text-sm text-black/70 leading-relaxed font-light">
-              81-metre Oceanco superyacht. Built 2007, comprehensively refitted 2024. Available for acquisition.
+              82-metre Oceanco superyacht. Built 2007, comprehensively refitted 2024. Available for acquisition.
             </p>
           </div>
           

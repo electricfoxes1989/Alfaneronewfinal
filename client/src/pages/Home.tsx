@@ -69,8 +69,8 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <YachtSchema />
       <SEOHead 
-        title="ALFA NERO | 81m Oceanco Superyacht For Sale"
-        description="ALFA NERO is an 81-metre Oceanco superyacht for sale. Award-winning design by Nuvolari Lenard, interiors by Alberto Pinto. Built 2007, refitted 2024."
+        title="ALFA NERO | 82m Oceanco Superyacht For Sale"
+        description="ALFA NERO is an 82-metre Oceanco superyacht for sale. Award-winning design by Nuvolari Lenard, interiors by Alberto Pinto. Built 2007, refitted 2024."
         preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
       />
       <Navigation />
@@ -87,7 +87,7 @@ export default function Home() {
         fallbackImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
         fallbackImageSrcset="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/MvOHZGFGQjAkJHjh.webp 480w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/LnfYFWyXwKbasrKp.webp 960w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp 1920w"
         fallbackImageSizes="100vw"
-        imageAlt="ALFA NERO 81m Oceanco Superyacht"
+        imageAlt="ALFA NERO 82m Oceanco Superyacht"
         overlayStyle="gradient"
         kenBurnsEffect={true}
         parallaxEffect={true}
@@ -106,7 +106,7 @@ export default function Home() {
               }}
             >
               ALFA NERO
-              <span className="sr-only"> | 81m Oceanco Superyacht For Sale</span>
+              <span className="sr-only"> | 82m Oceanco Superyacht For Sale</span>
             </h1>
           </div>
           <div 
@@ -165,7 +165,7 @@ export default function Home() {
               <p className="section-label mb-4">The Vessel</p>
               <h2 className="text-foreground mb-8" style={{ fontFamily: "'Cantata One', serif" }}>An Oceanco Icon</h2>
               <p className="text-lg leading-relaxed mb-6 font-light">
-                A multi-award-winning 81-metre superyacht built by Oceanco and originally commissioned by Greek shipping magnate Theodore Angelopoulos, ALFA NERO remains a benchmark in her class almost two decades after launch. Comprehensively refitted in 2024, she is presented today in strong technical and operational condition.
+                A multi-award-winning 82-metre superyacht built by Oceanco and originally commissioned by Greek shipping magnate Theodore Angelopoulos, ALFA NERO remains a benchmark in her class almost two decades after launch. Comprehensively refitted in 2024, she is presented today in strong technical and operational condition.
               </p>
               <p className="text-base leading-relaxed text-foreground/60 font-light">
                 Winner of seven major industry awards including Best Interior Design and Best Exterior Styling at the World Superyacht Awards, ALFA NERO offers proven charter capability, and a layout suited to both private ownership and commercial use. She represents a rare opportunity to acquire a vessel of genuine pedigree at her strongest point since delivery.
@@ -390,7 +390,7 @@ export default function Home() {
                 {/* Side profile for desktop */}
                 <img 
                   src="/images/alfa-nero-line-drawing.webp" 
-                  alt="ALFA NERO 81m Oceanco superyacht technical line drawing with specifications" 
+                  alt="ALFA NERO 82m Oceanco superyacht technical line drawing with specifications" 
                   className="hidden md:block w-full h-auto"
                 />
                 {/* 3D perspective drawing for mobile */}
@@ -421,7 +421,7 @@ export default function Home() {
             <div className={`text-center mt-6 transition-all duration-700 delay-100 ${visibleSections.has('specs') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
               <div className="flex items-center gap-2 justify-center mb-1">
                 <div className="w-16 md:w-24 h-px bg-black/30"></div>
-                <span className="text-base md:text-3xl font-light">81.27m</span>
+                <span className="text-base md:text-3xl font-light">82m</span>
                 <div className="w-16 md:w-24 h-px bg-black/30"></div>
               </div>
               <p className="text-[10px] md:text-xs tracking-[0.2em] uppercase text-foreground/50 font-bold">Length Overall</p>

@@ -211,7 +211,7 @@ export default function Oceanco() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-foreground mt-1">•</span>
-                  <span><strong>ALFA NERO</strong> (81m, 2007) – Seven-time award winner, first superyacht infinity pool</span>
+                  <span><strong>ALFA NERO</strong> (82m, 2007) – Seven-time award winner, first superyacht infinity pool</span>
                 </li>
               </ul>
             </div>

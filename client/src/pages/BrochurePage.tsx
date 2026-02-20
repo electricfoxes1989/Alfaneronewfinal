@@ -24,7 +24,7 @@ export default function BrochurePage() {
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead
         title="Brochure | ALFA NERO"
-        description="ALFA NERO digital brochure. Explore the 81-metre Oceanco superyacht in detail: specifications, interiors by Alberto Pinto, exterior by Nuvolari Lenard, and lifestyle features."
+        description="ALFA NERO digital brochure. Explore the 82-metre Oceanco superyacht in detail: specifications, interiors by Alberto Pinto, exterior by Nuvolari Lenard, and lifestyle features."
         preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
       />
       <Navigation />
@@ -63,7 +63,7 @@ export default function BrochurePage() {
               className="text-white/70 text-base md:text-lg max-w-xl"
               style={{ fontFamily: "'Jost', sans-serif" }}
             >
-              81 Metres · Oceanco · Built 2007 · Refitted 2024
+              82 Metres · Oceanco · Built 2007 · Refitted 2024
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function BrochurePage() {
               A Vessel Without Equal
             </h2>
             <p className="text-foreground/70 text-lg leading-relaxed mb-6">
-              ALFA NERO is a multi-award-winning 81-metre superyacht built by Oceanco
+              ALFA NERO is a multi-award-winning 82-metre superyacht built by Oceanco
               and originally commissioned by Greek shipping magnate Theodore Angelopoulos.
               She was the first superyacht to feature a convertible infinity pool-to-helipad
               system, and her interiors by Alberto Pinto remain among the most celebrated
@@ -117,7 +117,7 @@ export default function BrochurePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-16">
             <div className="text-center">
               <Ruler className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>81.27m</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>82m</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Length Overall</p>
             </div>
             <div className="text-center">
