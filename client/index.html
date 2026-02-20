@@ -263,10 +263,9 @@
     }
     </script>
     
-    <!-- Optimized Font Loading - Non-blocking with preload -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
+    <!-- Preload hero image for fast LCP -->
+    <link rel="preload" as="image" href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp" fetchpriority="high" />
+
     <!-- Preload critical fonts for faster rendering -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" />
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap" />
@@ -286,10 +285,6 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script
-      defer
-      src="%VITE_ANALYTICS_ENDPOINT%/umami"
-      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
   </body>
 
 </html>

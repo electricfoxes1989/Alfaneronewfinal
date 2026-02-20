@@ -1,8 +1,9 @@
 import { Link } from "wouter";
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-import BrochureDownloadModal from "@/components/BrochureDownloadModal";
+
+const BrochureDownloadModal = lazy(() => import("@/components/BrochureDownloadModal"));
 
 export default function Footer() {
   const [showBrochureModal, setShowBrochureModal] = useState(false);
@@ -70,11 +71,15 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Brochure Download Modal */}
-      <BrochureDownloadModal
-        open={showBrochureModal}
-        onOpenChange={setShowBrochureModal}
-      />
+      {/* Brochure Download Modal - lazy loaded */}
+      {showBrochureModal && (
+        <Suspense fallback={null}>
+          <BrochureDownloadModal
+            open={showBrochureModal}
+            onOpenChange={setShowBrochureModal}
+          />
+        </Suspense>
+      )}
     </footer>
   );
 }
