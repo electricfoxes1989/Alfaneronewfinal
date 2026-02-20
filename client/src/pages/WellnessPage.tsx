@@ -246,7 +246,7 @@ export default function WellnessPage() {
               <div className="grid grid-cols-2 gap-4 text-sm text-foreground/70">
                 <div>
                   <p className="text-foreground/50 mb-1">Infinity Pool</p>
-                  <p>3.7m × 11.6m, hydraulic floor</p>
+                  <p>3.7m × 11.6m, spindle-driven floor</p>
                 </div>
                 <div>
                   <p className="text-foreground/50 mb-1">Jacuzzi Pools</p>

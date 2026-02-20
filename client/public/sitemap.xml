@@ -5,13 +5,13 @@
   <!-- Homepage -->
   <url>
     <loc>https://alfaneroyacht.com/</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.jpg</image:loc>
-      <image:title>ALFA NERO 82m Oceanco Superyacht</image:title>
-      <image:caption>ALFA NERO, an 82-metre Oceanco superyacht available for acquisition</image:caption>
+      <image:title>ALFA NERO 81m Oceanco Superyacht</image:title>
+      <image:caption>ALFA NERO, an 81-metre Oceanco superyacht available for acquisition</image:caption>
     </image:image>
   </url>
   
@@ -102,5 +102,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- Digital Brochure -->
+  <url>
+    <loc>https://alfaneroyacht.com/brochure</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>

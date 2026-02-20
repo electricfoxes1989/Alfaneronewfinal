@@ -23,7 +23,7 @@ export default function TechnicalPage() {
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead 
         title="Technical Specifications | ALFA NERO"
-        description="Complete technical specifications for ALFA NERO: 82m length, 2,159 GT, twin MTU engines, 20 knot max speed, 5,500nm range, 12 guests in 6 staterooms."
+        description="Complete technical specifications for ALFA NERO: 81.27m length, 2,159 GT, twin MTU engines, 20 knot max speed, 5,500nm range, 12 guests in 6 staterooms."
       
         preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JnaEPBZmZHEIWFkA.webp"
       />
@@ -41,7 +41,7 @@ export default function TechnicalPage() {
                 "name": "What is the length of ALFA NERO?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "ALFA NERO has a length overall (LOA) of 82 metres (269 feet), making her one of the most impressive superyachts built by Oceanco."
+                  "text": "ALFA NERO has a length overall (LOA) of 81.27 metres (267 feet), making her one of the most impressive superyachts built by Oceanco."
                 }
               },
               {
@@ -381,7 +381,7 @@ export default function TechnicalPage() {
             <div className="mb-16">
               <h2 className="text-2xl font-light mb-8 pb-4 border-b border-border">The Pool System</h2>
               <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                The signature hydraulic pool system allows the 3.7-by-11.6-metre infinity pool to transform into a flush deck surface, serving as either a dance floor or emergency helipad. The pool floor can also be raised to a shallower depth for children. This engineering solution exemplifies ALFA NERO's approach: innovative features delivered through reliable, proven systems.
+                The signature spindle-driven pool system allows the 3.7-by-11.6-metre infinity pool to transform into a flush deck surface, serving as either a dance floor or emergency helipad. The pool floor can also be raised to a shallower depth for children. This engineering solution exemplifies ALFA NERO's approach: innovative features delivered through reliable, proven systems.
               </p>
             </div>
 

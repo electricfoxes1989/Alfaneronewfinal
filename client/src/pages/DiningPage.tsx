@@ -50,7 +50,7 @@ export default function DiningPage() {
           <article className={`article-prose ${visible ? 'fade-up visible' : 'fade-up'}`} style={{ transitionDelay: '0.3s' }}>
             <p className="article-lead">
               <strong>
-              Dining onboard ALFA NERO transcends mere sustenance—it becomes an experience.</strong> Whether hosting a formal dinner for twelve in the main dining room, sharing an intimate meal in the private dining area, or enjoying al fresco cuisine under Mediterranean stars, every setting has been designed by Alberto Pinto to elevate the culinary moment.
+              Dining onboard ALFA NERO transcends mere sustenance. It becomes an experience.</strong> Whether hosting a formal dinner for twelve in the main dining room, sharing an intimate meal in the private dining area, or enjoying al fresco cuisine under Mediterranean stars, every setting has been designed by Alberto Pinto to elevate the culinary moment.
             </p>
 
             <p className="section-label mb-4">Technical Systems</p>
@@ -127,7 +127,7 @@ export default function DiningPage() {
 
             <h2>Al Fresco Dining</h2>
             <p>
-              The exterior dining areas offer an entirely different experience—the pleasure of fine dining combined with the beauty of the open sea. Multiple al fresco dining options are available throughout the yacht, from the formal exterior dining area on the main deck to casual seating on the sundeck.
+              The exterior dining areas offer an entirely different experience: the pleasure of fine dining combined with the beauty of the open sea. Multiple al fresco dining options are available throughout the yacht, from the formal exterior dining area on the main deck to casual seating on the sundeck.
             </p>
             <p>
               As the sun sets and the stars emerge, these outdoor spaces transform into magical settings for evening meals. The gentle sea breeze, the sound of water against the hull, and the vast canopy of stars overhead create an atmosphere impossible to replicate on land.

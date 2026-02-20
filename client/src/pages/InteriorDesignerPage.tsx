@@ -240,25 +240,25 @@ export default function InteriorDesignerPage() {
               <ArticleImage
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/vaNDvNCTPCwznySw.webp"
                 alt="The Lanesborough Hotel, London - Interior by Alberto Pinto"
-                caption="The Lanesborough, London — a comprehensive renovation restoring Regency grandeur"
+                caption="The Lanesborough, London, a comprehensive renovation restoring Regency grandeur"
                 className="aspect-[16/10]"
               />
               <ArticleImage
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/SzcpXkvLKgRrZakl.webp"
                 alt="Tour Odéon, Monaco - Interior by Alberto Pinto"
-                caption="Tour Odéon, Monaco — penthouse and public spaces of the forty-nine-storey tower"
+                caption="Tour Odéon, Monaco, penthouse and public spaces of the forty-nine-storey tower"
                 className="aspect-[16/10]"
               />
               <ArticleImage
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/EcRmaFoRBlNTavGg.webp"
                 alt="Private Boeing 747 Interior by Alberto Pinto"
-                caption="A private Boeing 747 — the studio's aviation atelier at its most ambitious"
+                caption="A private Boeing 747, the studio's aviation atelier at its most ambitious"
                 className="aspect-[16/10]"
               />
               <ArticleImage
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/cwioREKOTQbcjkYX.webp"
                 alt="Alberto Pinto residential commission, Paris"
-                caption="A Parisian residential commission — layered classicism with contemporary confidence"
+                caption="A Parisian residential commission, layered classicism with contemporary confidence"
                 className="aspect-[16/10]"
               />
             </div>

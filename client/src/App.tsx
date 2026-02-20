@@ -27,6 +27,7 @@ const EntertainmentPage = lazy(() => import("./pages/EntertainmentPage"));
 const WaterToysPage = lazy(() => import("./pages/WaterToysPage"));
 const DiningPage = lazy(() => import("./pages/DiningPage"));
 const FullTourPage = lazy(() => import("./pages/FullTourPage"));
+const BrochurePage = lazy(() => import("./pages/BrochurePage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Loading fallback component
@@ -68,6 +69,7 @@ function Router() {
       <Route path={"/tour"} component={FullTourPage} />
       <Route path={"/video-tour"} component={FullTourPage} />
       <Route path={"/design/oceanco"} component={Oceanco} />
+      <Route path={"/brochure"} component={BrochurePage} />
       
       
       <Route path={"/404"} component={NotFound} />

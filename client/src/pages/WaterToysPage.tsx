@@ -149,7 +149,7 @@ export default function WaterToysPage() {
 
             <h2>The Garage</h2>
             <p>
-              All of this equipment is housed within ALFA NERO's purpose-built stern garage, a space engineered for both storage efficiency and rapid deployment. The hydraulic stern platform lowers to water level, creating a seamless launch and recovery system for the tenders and all water toys.
+              All of this equipment is housed within ALFA NERO's purpose-built stern garage, a space engineered for both storage efficiency and rapid deployment. The stern platform lowers to water level, creating a seamless launch and recovery system for the tenders and all water toys.
             </p>
             <p>
               The garage connects directly to the beach club, meaning guests can move from relaxation to adventure in moments. When not in use, the platform raises to create additional deck space, while the garage doors close to maintain the yacht's sleek profile.

@@ -37,7 +37,7 @@ export default function BrokerPage() {
             </h1>
             <p className="text-xl text-foreground/70 font-light">Contact your broker representative for more information</p>
             <div className="flex items-center gap-4 text-sm text-foreground/60 mt-6">
-              <span>82 Metres</span>
+              <span>81 Metres</span>
               <span className="w-1 h-1 rounded-full bg-foreground/40"></span>
               <span>Oceanco</span>
               <span className="w-1 h-1 rounded-full bg-foreground/40"></span>
@@ -54,7 +54,7 @@ export default function BrokerPage() {
             <ArticleImage
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
               alt="ALFA NERO Profile"
-              caption="ALFA NERO — 82m Oceanco superyacht, available for acquisition"
+              caption="ALFA NERO , 81m Oceanco superyacht, available for acquisition"
               className="aspect-[21/9]"
             />
           </div>
@@ -67,7 +67,7 @@ export default function BrokerPage() {
           <article className={`article-prose ${visible ? 'fade-up visible' : 'fade-up'}`} style={{ transitionDelay: '0.3s' }}>
             <p className="article-lead">
               <strong>
-              The acquisition of a superyacht of ALFA NERO's calibre requires more than transactional expertise — it demands an understanding of both the vessel's significance and the expectations of discerning clients.</strong>
+              The acquisition of a superyacht of ALFA NERO's calibre requires more than transactional expertise , it demands an understanding of both the vessel's significance and the expectations of discerning clients.</strong>
             </p>
 
             <p className="section-label mb-4">Details</p>
@@ -75,11 +75,11 @@ export default function BrokerPage() {
 
             <h2>A Vessel of Distinction</h2>
             <p>
-              ALFA NERO represents a rare opportunity to acquire one of the most recognised superyachts in the world. Built by Oceanco in 2007 and comprehensively refitted in 2024, she combines the design vision of Nuvolari Lenard with the interior artistry of Alberto Pinto — a collaboration that produced a vessel of enduring significance.
+              ALFA NERO represents a rare opportunity to acquire one of the most recognised superyachts in the world. Built by Oceanco in 2007 and comprehensively refitted in 2024, she combines the design vision of Nuvolari Lenard with the interior artistry of Alberto Pinto , a collaboration that produced a vessel of enduring significance.
             </p>
 
             <p>
-              At 82 metres, ALFA NERO accommodates 12 guests across 6 staterooms (plus a staff suite), supported by a crew of 28. Her pioneering infinity pool, seven international design awards, and distinctive black hull have made her an icon of modern superyacht design.
+              At 81 metres, ALFA NERO accommodates 12 guests across 6 staterooms (plus a staff suite), supported by a crew of 28. Her pioneering infinity pool, seven international design awards, and distinctive black hull have made her an icon of modern superyacht design.
             </p>
 
             <p className="section-label mb-4">Acquisition</p>

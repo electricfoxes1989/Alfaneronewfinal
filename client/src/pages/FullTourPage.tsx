@@ -44,7 +44,7 @@ export default function FullTourPage() {
             className="text-white/70 text-sm md:text-base"
             style={{ fontFamily: "'Jost', sans-serif" }}
           >
-            82 Metres · Oceanco · 2007/2024
+            81 Metres · Oceanco · 2007/2024
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function FullTourPage() {
               Step Onboard ALFA NERO
             </h2>
             <p className="text-foreground/70 leading-relaxed">
-              Experience the full tour of this iconic 82-metre Oceanco superyacht. From the revolutionary infinity pool to the exquisite Alberto Pinto interiors, discover why ALFA NERO remains one of the most celebrated vessels ever built.
+              Experience the full tour of this iconic 81-metre Oceanco superyacht. From the revolutionary infinity pool to the exquisite Alberto Pinto interiors, discover why ALFA NERO remains one of the most celebrated vessels ever built.
             </p>
           </div>
 
@@ -89,7 +89,7 @@ export default function FullTourPage() {
               <Link href="/master-cabin" className="group block p-6 border border-foreground/10 hover:border-[#C41E3A]/50 transition-all duration-300 hover:bg-foreground/5">
                 <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', sans-serif" }}>Accommodation</p>
                 <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>Master Cabin</h4>
-                <p className="text-sm text-foreground/60">The owner's private sanctuary</p>
+                <p className="text-sm text-foreground/60">The owner's private retreat</p>
               </Link>
 
               <Link href="/deck-space" className="group block p-6 border border-foreground/10 hover:border-[#C41E3A]/50 transition-all duration-300 hover:bg-foreground/5">
@@ -119,7 +119,7 @@ export default function FullTourPage() {
         <div className="container max-w-6xl px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', serif" }}>82m</p>
+              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', serif" }}>81m</p>
               <p className="text-xs tracking-[0.2em] uppercase text-white/50">Length</p>
             </div>
             <div>

@@ -84,11 +84,11 @@ export default function History() {
 
             <h2>Construction & Launch</h2>
             <p>
-              Construction began in 2004 at Oceanco's Alblasserdam facility in the Netherlands, where the yard had been building custom superyachts since 1987. Project Y702, as she was known internally, represented the most ambitious undertaking in the yard's history at that point—an 82-metre vessel that would push the boundaries of what was technically possible.
+              Construction began in 2004 at Oceanco's Alblasserdam facility in the Netherlands, where the yard had been building custom superyachts since 1987. Project Y702, as she was known internally, represented the most ambitious undertaking in the yard's history at that point, an 81-metre vessel that would push the boundaries of what was technically possible.
             </p>
             
             <p>
-              The steel hull and aluminium superstructure were fabricated over 18 months, with particular attention paid to the complex stern section that would house the revolutionary infinity pool. The hydraulic floor system alone required months of engineering refinement, as no existing solution could meet the specifications Nuvolari Lenard had envisioned.
+              The steel hull and aluminium superstructure were fabricated over 18 months, with particular attention paid to the complex stern section that would house the revolutionary infinity pool. The spindle-driven floor system alone required months of engineering refinement, as no existing solution could meet the specifications Nuvolari Lenard had envisioned.
             </p>
             
             <p>
@@ -120,7 +120,7 @@ export default function History() {
             </p>
             
             <p>
-              The aft deck introduced what Oceanco would later term the first "statement pool" on a superyacht: a 12-metre infinity pool with a glass waterfall edge, engineered with a hydraulic floor system allowing depth adjustment, full conversion to a helipad, or a flush dance floor. It was a technical problem no yard had solved at this scale.
+              The aft deck introduced what Oceanco would later term the first "statement pool" on a superyacht: a 12-metre infinity pool with a glass waterfall edge, engineered with a spindle-driven floor system allowing depth adjustment, full conversion to a helipad, or a flush dance floor. It was a technical problem no yard had solved at this scale.
             </p>
             
             <p>
@@ -217,7 +217,7 @@ export default function History() {
 
           <article className="article-prose">
             <p>
-              When drained, hydraulic systems raise the pool floor to sit flush with the deck. The space transforms, entertainment venue, event space, helipad. One area serving three distinct functions without compromise to any of them.
+              When drained, the spindle mechanism raises the pool floor to sit flush with the deck. The space transforms, entertainment venue, event space, helipad. One area serving three distinct functions without compromise to any of them.
             </p>
 
             {/* Jeroen Mulder Quote */}

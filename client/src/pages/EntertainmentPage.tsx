@@ -74,10 +74,10 @@ export default function EntertainmentPage() {
 
             <h2>The Bösendorfer Piano</h2>
             <p>
-              At the heart of the main salon stands a Bösendorfer grand piano, one of the world's most prestigious instruments. Handcrafted in Vienna since 1828, Bösendorfer pianos are renowned for their exceptional tonal quality and craftsmanship—a fitting centrepiece for a yacht of ALFA NERO's calibre.
+              At the heart of the main salon stands a Bösendorfer grand piano, one of the world's most prestigious instruments. Handcrafted in Vienna since 1828, Bösendorfer pianos are renowned for their exceptional tonal quality and craftsmanship, a fitting centrepiece for a yacht of ALFA NERO's calibre.
             </p>
             <p>
-              The instrument serves both as a stunning visual element and a functional piece, available for accomplished guests or professional musicians during special occasions. Its presence speaks to the original owner's appreciation for the finer things—music, art, and the spaces that celebrate them.
+              The instrument serves both as a stunning visual element and a functional piece, available for accomplished guests or professional musicians during special occasions. Its presence speaks to the original owner's appreciation for the finer things: music, art, and the spaces that celebrate them.
             </p>
 
             <div className="bg-foreground/5 border-l-2 border-gold p-6 my-8">
@@ -115,7 +115,7 @@ export default function EntertainmentPage() {
 
             <h2>Sundeck Entertainment</h2>
             <p>
-              The sundeck offers an entirely different entertainment experience—open-air luxury with 360-degree views. A built-in bar, comfortable seating areas, and proximity to the Jacuzzi create the perfect environment for daytime relaxation or sunset celebrations.
+              The sundeck offers an entirely different entertainment experience, with open-air luxury with 360-degree views. A built-in bar, comfortable seating areas, and proximity to the Jacuzzi create the perfect environment for daytime relaxation or sunset celebrations.
             </p>
             <p>
               The space is equipped with an outdoor entertainment system, allowing guests to enjoy music or films under the stars. During the 2024 refit, the sundeck soft furnishings were completely refreshed, maintaining the classic black-and-white aesthetic that has become ALFA NERO's signature.
@@ -150,7 +150,7 @@ export default function EntertainmentPage() {
               For quieter evenings, ALFA NERO offers dedicated cinema facilities with a curated film library and state-of-the-art audio-visual equipment. The sky lounge doubles as a screening room, its comfortable seating and blackout capabilities creating an intimate theatre experience at sea.
             </p>
             <p>
-              Throughout the yacht, integrated entertainment systems allow guests to access music, films, and media from any location—whether relaxing in their cabin, dining al fresco, or lounging by the pool.
+              Throughout the yacht, integrated entertainment systems allow guests to access music, films, and media from any location, whether relaxing in their cabin, dining al fresco, or lounging by the pool.
             </p>
 
             <p className="section-label mb-4">Entertainment</p>

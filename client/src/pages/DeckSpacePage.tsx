@@ -59,7 +59,6 @@ export default function DeckSpacePage() {
               ALFA NERO's exterior spaces were conceived as outdoor rooms, extensions of the interior that offer the same attention to proportion, flow, and comfort.</strong> With over 1,250 square metres of living space across multiple decks, the yacht provides areas for every mood and occasion.
             </p>
 
-            <p className="section-label mb-4">Outdoor Living</p>
 
 
             <h2>The Aft Deck</h2>
@@ -97,7 +96,7 @@ export default function DeckSpacePage() {
 
             <h2>The Infinity Pool: A Design Revolution</h2>
             <p>
-              <strong>When ALFA NERO launched in 2007, her 3.7-by-11.6-metre infinity pool was the first of its kind on a superyacht.</strong> What seems almost standard today was genuinely revolutionary then—a feature that required significant engineering innovation and changed owner expectations across the industry.
+              <strong>When ALFA NERO launched in 2007, her 3.7-by-11.6-metre infinity pool was the first of its kind on a superyacht.</strong> What seems almost standard today was genuinely revolutionary then, a feature that required significant engineering innovation and changed owner expectations across the industry.
             </p>
 
             <p>
@@ -121,7 +120,6 @@ export default function DeckSpacePage() {
           </article>
 
           <article className="article-prose">
-            <p className="section-label mb-4">Outdoor Living</p>
 
             <h2>The Sundeck</h2>
             <p>
@@ -150,7 +148,6 @@ export default function DeckSpacePage() {
           </div>
 
           <article className="article-prose">
-            <p className="section-label mb-4">Outdoor Living</p>
 
             <h2>Dining Al Fresco</h2>
             <p>
