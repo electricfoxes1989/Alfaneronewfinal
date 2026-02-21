@@ -28,14 +28,14 @@ export default function ExteriorDesignerPage() {
         title="Nuvolari Lenard - Exterior Designer | ALFA NERO"
         description="Discover the Venice-based studio Nuvolari Lenard, whose revolutionary exterior design for ALFA NERO earned the World Superyacht Award for Best Exterior Styling."
       
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/BTqGMsMvmZiraLev.jpg"
+        preloadImage="/images/exterior-2.jpg"
       />
       <Navigation />
       
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/tceNeIAqyfTOOFPe.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/PrmThWsILbHvPYxQ.jpg"
+        imageSrc="/images/exterior-profile.jpg"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Design & Build</p>
@@ -129,7 +129,7 @@ export default function ExteriorDesignerPage() {
           {/* Third Mid-article Image */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/hUUZWPzwYIysCvGF.jpg"
+              src="/images/nuvolari-lenard-founders.jpg"
               alt="ALFA NERO exterior detail"
               caption="The dramatic profile that redefined superyacht aesthetics"
               className="aspect-[16/10]"

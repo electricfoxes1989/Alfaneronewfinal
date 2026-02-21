@@ -18,9 +18,9 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   // Exterior
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp", alt: "Front Profile", category: "exterior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/ctoTmKEadEwbvNZq.webp", alt: "Stern Night View", category: "exterior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kxuIswOtlvQUlmWR.webp", alt: "Aft Deck Pool", category: "exterior" },
+  { src: "/images/exterior-profile.webp", alt: "Front Profile", category: "exterior" },
+  { src: "/images/exterior-early-evening.webp", alt: "Stern Night View", category: "exterior" },
+  { src: "/images/aft-deck-pool.webp", alt: "Aft Deck Pool", category: "exterior" },
   { src: "/images/Evening.webp", alt: "Evening Shot", category: "exterior" },
   { src: "/images/exterior-early-evening.webp", alt: "Early Evening", category: "exterior" },
   { src: "/images/aft.webp", alt: "Aft View", category: "exterior" },
@@ -29,33 +29,33 @@ const galleryImages: GalleryImage[] = [
   
   // Aerial
   { src: "/images/DJI_20250911101923_0042_D.webp", alt: "Aerial View", category: "aerial" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/VfilQBCVAgdGeFbp.webp", alt: "Aerial Overhead", category: "aerial" },
+  { src: "/images/DJI_20250911072413_0014_D.webp", alt: "Aerial Overhead", category: "aerial" },
   { src: "/images/DJI_20250911072413_0014_D.webp", alt: "Drone Shot", category: "aerial" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/dawghApuihFzyopY.webp", alt: "Aerial Perspective", category: "aerial" },
+  { src: "/images/DJI_20250911101923_0042_D.webp", alt: "Aerial Perspective", category: "aerial" },
   { src: "/images/A N 30.webp", alt: "From Above", category: "aerial" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/lpMaAvMsPHHWbpSS.webp", alt: "Aerial Detail", category: "aerial" },
+  { src: "/images/alfa-nero-aerial-ocean.webp", alt: "Aerial Detail", category: "aerial" },
   
   // Interior
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/wunpTDYOTuuXRgjS.webp", alt: "Dining Area", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/xhGwvtbfTJzjLxtF.webp", alt: "Elevator Lobby", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/IJGJIRBTgHWinGXN.webp", alt: "Owner's Office", category: "interior" },
+  { src: "/images/formal-dining-room.webp", alt: "Dining Area", category: "interior" },
+  { src: "/images/spiral-staircase.webp", alt: "Elevator Lobby", category: "interior" },
+  { src: "/images/master-office.webp", alt: "Owner's Office", category: "interior" },
   { src: "/images/LOUNGE.webp", alt: "Main Lounge", category: "interior" },
   { src: "/images/private-dining.webp", alt: "Private Dining", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/eNJnPZWeGRATLlPP.webp", alt: "Master Cabin", category: "interior" },
+  { src: "/images/main-master-cabin.webp", alt: "Master Cabin", category: "interior" },
   { src: "/images/guest-room.webp", alt: "Guest Room", category: "interior" },
   { src: "/images/vip-room.webp", alt: "Guest Accommodation", category: "interior" },
   { src: "/images/CREW Area.webp", alt: "Crew Area", category: "technical" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/ohqUhwjotkszikKT.webp", alt: "Interior Detail", category: "interior" },
+  { src: "/images/guest-corridor-gallery.webp", alt: "Interior Detail", category: "interior" },
   { src: "/images/AA_0585-Enhanced-NR-Edit.webp", alt: "Interior Enhanced", category: "interior" },
   { src: "/images/AA_1885-Edit.webp", alt: "Interior View", category: "interior" },
   { src: "/images/AA_2178-Edit-3.webp", alt: "Interior Space", category: "interior" },
   { src: "/images/AA_2388-EditA.webp", alt: "Al Fresco Dining", category: "interior" },
   { src: "/images/AA_2575-Edit-2.webp", alt: "Sky Lounge", category: "interior" },
   { src: "/images/ALFA NERO N&J (Clean)_2072.webp", alt: "Interior Modern", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/SeQqnnGkEgaJPcrZ.webp", alt: "Main Salon", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/OemjZoxGcvNVpGJK.webp", alt: "Sky Lounge TV", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/xACTrujLNDompboY.webp", alt: "Dining Room Panoramic", category: "interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/oHOYcLDxXfCdrjip.webp", alt: "Guest Cabin Coral", category: "interior" },
+  { src: "/images/main-salon-lounge.webp", alt: "Main Salon", category: "interior" },
+  { src: "/images/sky-lounge.webp", alt: "Sky Lounge TV", category: "interior" },
+  { src: "/images/private-dining.webp", alt: "Dining Room Panoramic", category: "interior" },
+  { src: "/images/guest-room.webp", alt: "Guest Cabin Coral", category: "interior" },
   
   // Technical & Crew
   { src: "/images/engine-room.webp", alt: "Engine Room", category: "technical" },
@@ -66,13 +66,13 @@ const galleryImages: GalleryImage[] = [
   
   // Wellness
   { src: "/images/aft-deck-pool.webp", alt: "Aft Deck Pool", category: "wellness" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/OHvTbHcWLGCZwvQc.webp", alt: "Infinity Pool Sunset", category: "wellness" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/wXxCWkcaAZjlzuXB.webp", alt: "Sundeck Dining", category: "wellness" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/NuAZEWjWhVRQdMcZ.webp", alt: "Beach Club with Jetski", category: "wellness" },
+  { src: "/images/pool-deck-evening.webp", alt: "Infinity Pool Sunset", category: "wellness" },
+  { src: "/images/sundeck-entertainment.webp", alt: "Sundeck Dining", category: "wellness" },
+  { src: "/images/beach-club-sea-terrace.webp", alt: "Beach Club with Jetski", category: "wellness" },
   { src: "/images/aft-deck-terrace.webp", alt: "Aft Deck Terrace", category: "wellness" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/FhhRZelbtIQnSbno.webp", alt: "Jacuzzi", category: "wellness" },
+  { src: "/images/sundeck-gym-jacuzzi.webp", alt: "Jacuzzi", category: "wellness" },
   { src: "/images/Spa.webp", alt: "Spa", category: "wellness" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/MkblNViUyiXqcLBX.webp", alt: "Sauna", category: "wellness" },
+  { src: "/images/Spa.webp", alt: "Sauna", category: "wellness" },
 ];
 
 type Category = "all" | "exterior" | "interior" | "wellness" | "aerial" | "technical";
@@ -219,7 +219,7 @@ export default function Gallery() {
             "@type": "VideoObject",
             "name": "ALFA NERO - 82m Oceanco Superyacht Video Tour",
             "description": "Exclusive video presentation of ALFA NERO, an iconic 82-metre Oceanco superyacht featuring award-winning design by Nuvolari Lenard and interiors by Alberto Pinto. Built 2007, comprehensively refitted 2024.",
-            "thumbnailUrl": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JmDwffKfVFfBJjPr.webp",
+            "thumbnailUrl": "/images/exterior-profile.webp",
             "uploadDate": "2025-01-15",
             "contentUrl": "https://www.youtube.com/watch?v=eXXwZUQ4et0",
             "embedUrl": "https://www.youtube.com/embed/eXXwZUQ4et0",
@@ -240,7 +240,7 @@ export default function Gallery() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/AxszHozEWwtxrMdP.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JmDwffKfVFfBJjPr.webp"
+        imageSrc="/images/exterior-profile.webp"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Photography</p>

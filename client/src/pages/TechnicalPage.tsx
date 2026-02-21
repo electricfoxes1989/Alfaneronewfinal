@@ -25,7 +25,7 @@ export default function TechnicalPage() {
         title="Technical Specifications | ALFA NERO"
         description="Complete technical specifications for ALFA NERO: 82m length, 2,159 GT, twin MTU engines, 20 knot max speed, 5,500nm range, 12 guests in 6 staterooms."
       
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JnaEPBZmZHEIWFkA.webp"
+        preloadImage="/images/oceanco-engineering-wireframe.webp"
       />
 
       {/* FAQ Schema Markup for Rich Snippets */}
@@ -126,7 +126,7 @@ export default function TechnicalPage() {
       {/* Video Hero with Overlay */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/dXzmjQSivUMmdSeO.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/CgvVedNgXbCAPAMi.webp"
+        imageSrc="/images/exterior-profile.webp"
         imageAlt="ALFA NERO Technical View"
         heightClass="h-[70vh]"
         overlayStyle="gradient"

@@ -30,7 +30,7 @@ export default function EntertainmentPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/YndnyopubwofOxEO.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/CXnDRaDVmHjxMbAh.webp"
+        imageSrc="/images/main-salon-lounge.webp"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Entertainment Spaces</p>

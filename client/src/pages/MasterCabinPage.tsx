@@ -34,7 +34,7 @@ export default function MasterCabinPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/nVpGLerjSZEWCjMW.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/gqEkAOsoytgEFUIN.jpg"
+        imageSrc="/images/main-master-cabin.jpg"
         imageAlt="ALFA NERO Master Suite"
         overlayStyle="gradient"
         kenBurnsEffect={true}
@@ -77,7 +77,7 @@ export default function MasterCabinPage() {
           {/* Main Master Cabin Image */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/eNJnPZWeGRATLlPP.webp"
+              src="/images/main-master-cabin.webp"
               alt="ALFA NERO Master Cabin with panoramic ocean views"
               caption="The master cabin with full-beam layout and panoramic ocean views"
               className="aspect-[16/9]"
@@ -93,7 +93,7 @@ export default function MasterCabinPage() {
           {/* Mid-article Image - Bathroom */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/UhMJImqzZcLVbArU.jpg"
+              src="/images/Master Bathroom.jpg"
               alt="ALFA NERO Master Bathroom with ocean view"
               caption="The ensuite bathroom with marble tub, cherrywood panelling, and ocean views"
               className="aspect-[16/10]"

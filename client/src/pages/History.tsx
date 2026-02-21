@@ -32,14 +32,14 @@ export default function History() {
         title="History | ALFA NERO"
         description="The complete story of ALFA NERO - from her 2007 launch as Oceanco's Y702 project to becoming one of the most awarded superyachts in history."
       
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/bXgAzAIivvSnqekz.jpg"
+        preloadImage="/images/OLDER - ALFA NERO.jpg"
       />
       <Navigation />
       
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://www.youtube.com/watch?v=RcYk_tFeHdY"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/KlnbetKyuUzlHTRO.jpg"
+        imageSrc="/images/OLDER - ALFA NERO.jpg"
         imageAlt="ALFA NERO cruising at sea"
         heightClass="h-[70vh] min-h-[500px]"
         overlayStyle="gradient"
@@ -264,7 +264,7 @@ export default function History() {
           {/* Alberto Pinto Portrait */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/manus_upload_file/LNAhl4sVHRJn.jpg"
+              src="/images/alberto-pinto-portrait.jpg"
               alt="Alberto Pinto - Interior Designer of ALFA NERO"
               caption="Alberto Pinto (1943–2012), the legendary Parisian interior designer"
               className="aspect-[16/10] max-w-2xl mx-auto"
@@ -294,7 +294,7 @@ export default function History() {
           {/* Beach Club with Lichtenstein Artwork */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/GjrkyhOVTBkDXuZm.jpg"
+              src="/images/beach-club-terrace.jpg"
               alt="ALFA NERO beach club featuring Roy Lichtenstein artwork"
               caption="The beach club with Roy Lichtenstein artwork, showcasing the seamless indoor-outdoor flow"
               className="aspect-[16/9]"

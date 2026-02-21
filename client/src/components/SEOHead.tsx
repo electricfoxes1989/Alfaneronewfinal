@@ -18,7 +18,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  image = 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp',
+  image = '/images/exterior-profile.webp',
   url = '',
   type = 'website',
   preloadImage

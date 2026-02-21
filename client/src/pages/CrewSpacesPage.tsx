@@ -34,7 +34,7 @@ export default function CrewSpacesPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/MGBvISWajYqnFsaI.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/BGpgwCZNJoSQFzxj.webp"
+        imageSrc="/images/CREW Area.webp"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Operations</p>
@@ -145,7 +145,7 @@ export default function CrewSpacesPage() {
           {/* Mid-article Image */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/wunpTDYOTuuXRgjS.webp"
+              src="/images/formal-dining-room.webp"
               alt="ALFA NERO Dining Room"
               caption="The formal dining room, served by the professional galley"
               className="aspect-[16/10]"

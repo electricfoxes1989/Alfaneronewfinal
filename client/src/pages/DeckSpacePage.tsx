@@ -33,7 +33,7 @@ export default function DeckSpacePage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/szTIXsQCyIWlnVKt.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kUinoERJOlDqdCMU.jpg"
+        imageSrc="/images/aft-deck-terrace.jpg"
         imageAlt="ALFA NERO Aft Deck"
         overlayStyle="gradient"
         kenBurnsEffect={true}
@@ -201,7 +201,7 @@ export default function DeckSpacePage() {
           {/* Beach Club Image */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/KLnISrvnYyNCYtvl.jpg"
+              src="/images/beach-club-terrace.jpg"
               alt="ALFA NERO Beach Club with Sun Loungers"
               caption="The beach club with sun loungers and Roy Lichtenstein artwork"
               className="aspect-[16/10]"
@@ -211,7 +211,7 @@ export default function DeckSpacePage() {
           {/* Swim Platform Image */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/mnKkFwRRCBTRoFAp.jpg"
+              src="/images/beach-club-sea-terrace.jpg"
               alt="ALFA NERO Swim Platform with Jet Ski"
               caption="The swim platform providing direct access to water sports and the sea"
               className="aspect-[16/10]"
@@ -275,7 +275,7 @@ export default function DeckSpacePage() {
           {/* Shaded Bar Area Image */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/XmwekSVlhjViLnLK.jpg"
+              src="/images/sundeck-entertainment.jpg"
               alt="Shaded Bar Area with Red Umbrellas"
               caption="Shaded bar area | Covered seating with panoramic views"
               className="aspect-[16/10]"
@@ -285,7 +285,7 @@ export default function DeckSpacePage() {
           {/* Third Mid-article Image - Aft Deck Pool */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/GzhIhJkCGAGGvKhK.png"
+              src="/images/aft-deck-pool.webp"
               alt="ALFA NERO Aft Deck Pool and Dining Area"
               caption="The aft deck features a pool, al fresco dining for 12, and panoramic ocean views"
               className="aspect-[16/10]"

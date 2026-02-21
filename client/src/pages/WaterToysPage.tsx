@@ -26,14 +26,14 @@ export default function WaterToysPage() {
         title="Water Toys & Garage | ALFA NERO"
         description="Explore ALFA NERO's comprehensive collection of water toys including the 13.5m Vanquish VQ45 chase boat, Yamaha WaveRunners, SeaBobs, diving equipment, and the state-of-the-art garage."
       
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/VwBxqGckAdXvEfsL.mp4"
+        preloadImage="/images/toys-tenders-deck.webp"
       />
       <Navigation />
       
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/VwBxqGckAdXvEfsL.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/FAQZeepwzPFDGYeD.jpg"
+        imageSrc="/images/toys-tenders-deck.jpg"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Onboard Adventure</p>

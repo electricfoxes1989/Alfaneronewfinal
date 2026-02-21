@@ -25,7 +25,7 @@ export default function BrochurePage() {
       <SEOHead
         title="Brochure | ALFA NERO"
         description="ALFA NERO digital brochure. Explore the 82-metre Oceanco superyacht in detail: specifications, interiors by Alberto Pinto, exterior by Nuvolari Lenard, and lifestyle features."
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
+        preloadImage="/images/exterior-profile.webp"
       />
       <Navigation />
 
@@ -35,7 +35,7 @@ export default function BrochurePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp')",
+              "url('/images/exterior-profile.webp')",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
@@ -317,7 +317,7 @@ export default function BrochurePage() {
             <Link href="/master-cabin" className="group block">
               <div className="aspect-[4/3] overflow-hidden rounded-sm mb-4">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/eNJnPZWeGRATLlPP.webp"
+                  src="/images/main-master-cabin.webp"
                   alt="ALFA NERO master cabin with panoramic views"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"

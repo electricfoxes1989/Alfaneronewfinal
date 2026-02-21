@@ -35,7 +35,7 @@ export default function InteriorDesignerPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/BeFpMqIwMubUrphG.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/IiUAUYJiXRhTbEva.webp"
+        imageSrc="/images/main-salon-lounge.webp"
         imageAlt="ALFA NERO Main Salon by Alberto Pinto"
       >
         <div className="container text-center max-w-4xl px-4">
@@ -83,7 +83,7 @@ export default function InteriorDesignerPage() {
           {/* Alberto Pinto Portrait */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/NqNZqndNDPtCEvMn.jpg"
+              src="/images/alberto-pinto-portrait.jpg"
               alt="Alberto Pinto, Interior Designer"
               caption="Alberto Pinto (1943–2012), the legendary Parisian interior architect"
               className="aspect-[2/3] max-w-md mx-auto"
@@ -93,7 +93,7 @@ export default function InteriorDesignerPage() {
           {/* Alberto Pinto Interior - Signature Residential Style */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/OuLwgGhBLQcwPBMb.webp"
+              src="/images/alberto-pinto-interior-style.webp"
               alt="Alberto Pinto residential interior design"
               caption="A signature Alberto Pinto residential commission: French classical grandeur with layered textures and curated antiques"
               className="aspect-[16/10]"
@@ -133,7 +133,7 @@ export default function InteriorDesignerPage() {
           {/* Mid-article Image - Dining */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/eEmRvZDRiqzVyiKS.webp"
+              src="/images/formal-dining-room.webp"
               alt="ALFA NERO Formal Dining Area"
               caption="The formal dining area with panoramic sea views, signature patterned chairs and bespoke table setting"
               className="aspect-[16/10]"
@@ -205,7 +205,7 @@ export default function InteriorDesignerPage() {
           {/* Linda Pinto Portrait */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/uadDUnBTbpBUHlEB.webp"
+              src="/images/alberto-pinto-collage.webp"
               alt="Linda Pinto, Chairwoman of Alberto Pinto Interior Design"
               caption="Linda Pinto, who has led Cabinet Alberto Pinto since 2012"
               className="aspect-[6/5] max-w-lg mx-auto"
@@ -238,25 +238,25 @@ export default function InteriorDesignerPage() {
             <h3 className="text-center text-sm uppercase tracking-[0.2em] text-foreground/60 mb-10">Major Commissions Under Linda Pinto</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto px-4">
               <ArticleImage
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/vaNDvNCTPCwznySw.webp"
+                src="/images/LOUNGE.webp"
                 alt="The Lanesborough Hotel, London - Interior by Alberto Pinto"
                 caption="The Lanesborough, London, a comprehensive renovation restoring Regency grandeur"
                 className="aspect-[16/10]"
               />
               <ArticleImage
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/SzcpXkvLKgRrZakl.webp"
+                src="/images/sky-lounge-blue.webp"
                 alt="Tour Odéon, Monaco - Interior by Alberto Pinto"
                 caption="Tour Odéon, Monaco, penthouse and public spaces of the forty-nine-storey tower"
                 className="aspect-[16/10]"
               />
               <ArticleImage
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/EcRmaFoRBlNTavGg.webp"
+                src="/images/sky-lounge.webp"
                 alt="Private Boeing 747 Interior by Alberto Pinto"
                 caption="A private Boeing 747, the studio's aviation atelier at its most ambitious"
                 className="aspect-[16/10]"
               />
               <ArticleImage
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/cwioREKOTQbcjkYX.webp"
+                src="/images/main-salon-lounge.webp"
                 alt="Alberto Pinto residential commission, Paris"
                 caption="A Parisian residential commission, layered classicism with contemporary confidence"
                 className="aspect-[16/10]"

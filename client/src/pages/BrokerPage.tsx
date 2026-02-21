@@ -52,7 +52,7 @@ export default function BrokerPage() {
         <div className="container max-w-6xl">
           <div className={`${visible ? 'scale-reveal visible' : 'scale-reveal'}`} style={{ transitionDelay: '0.2s' }}>
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
+              src="/images/exterior-profile.webp"
               alt="ALFA NERO Profile"
               caption="ALFA NERO , 82m Oceanco superyacht, available for acquisition"
               className="aspect-[21/9]"

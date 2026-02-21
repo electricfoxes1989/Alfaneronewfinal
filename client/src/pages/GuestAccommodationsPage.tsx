@@ -32,7 +32,7 @@ export default function GuestAccommodationsPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/BbVbBSZKUSlOpHDI.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/OhaUzHiLnaoCmSei.webp"
+        imageSrc="/images/guest-vip-suite.webp"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">The Yacht</p>
@@ -207,7 +207,7 @@ export default function GuestAccommodationsPage() {
               images={[
                 { src: "/images/guest-cabin-murakami.webp", alt: "VIP Suite with Murakami artwork", caption: "VIP Suite featuring Takashi Murakami artwork" },
                 { src: "/images/guest-vip-suite.webp", alt: "VIP Suite living area", caption: "VIP Suite with coral accents and entertainment" },
-                { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/zMmXUBLurouTHIea.webp", alt: "VIP Suite lounge area", caption: "VIP Suite lounge with warm wood panelling" },
+                { src: "/images/vip-room.webp", alt: "VIP Suite lounge area", caption: "VIP Suite lounge with warm wood panelling" },
                 { src: "/images/guest-cabin-desk.webp", alt: "Guest cabin with desk", caption: "Guest cabin with private workspace" },
                 { src: "/images/guest-corridor-gallery.webp", alt: "Guest corridor art gallery", caption: "Art-lined corridor leading to guest cabins" }
               ]}

@@ -34,7 +34,7 @@ export default function WellnessPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/AxszHozEWwtxrMdP.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/uwZXaIMebWUTJTSV.jpg"
+        imageSrc="/images/Spa.jpg"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Onboard Experience</p>
@@ -88,7 +88,7 @@ export default function WellnessPage() {
           {/* Mid-article Image - Sauna */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/YhNkPHwUpYbRHaVZ.jpg"
+              src="/images/Spa.jpg"
               alt="ALFA NERO Sauna"
               caption="The main deck sauna with natural wood finishes"
               className="aspect-[16/10]"
@@ -212,7 +212,7 @@ export default function WellnessPage() {
           {/* Third Mid-article Image - Jacuzzi */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/FGxcnDDUKhaTNcWf.jpg"
+              src="/images/sundeck-gym-jacuzzi.jpg"
               alt="ALFA NERO Jacuzzi"
               caption="One of multiple Jacuzzi pools onboard ALFA NERO"
               className="aspect-[16/10]"

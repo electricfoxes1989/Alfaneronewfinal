@@ -30,7 +30,7 @@ export default function DiningPage() {
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/XgTBiTSqQrcDPZMv.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/yRXvvqhLwFjYfegC.webp"
+        imageSrc="/images/formal-dining-room.webp"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Culinary Excellence</p>
@@ -77,7 +77,7 @@ export default function DiningPage() {
 
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/wunpTDYOTuuXRgjS.webp"
+              src="/images/formal-dining-room.webp"
               alt="Formal Dining Room with custom table for 12 guests"
               caption="Formal Dining Room | Design: Alberto Pinto"
               className="aspect-[16/10]"

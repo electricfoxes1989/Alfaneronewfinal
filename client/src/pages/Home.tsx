@@ -71,7 +71,7 @@ export default function Home() {
       <SEOHead 
         title="ALFA NERO | 82m Oceanco Superyacht For Sale"
         description="ALFA NERO is an 82-metre Oceanco superyacht for sale. Award-winning design by Nuvolari Lenard, interiors by Alberto Pinto. Built 2007, refitted 2024."
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
+        preloadImage="/images/exterior-profile.webp"
       />
       <Navigation />
 
@@ -79,13 +79,13 @@ export default function Home() {
       <TimeBasedVideoHero
         videos={{
           // Currently using same video for all times - replace with different videos when available
-          // dawn: { src: "/videos/alfa-nero-dawn.mp4", poster: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp" },
-          day: { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/yhLbPaEAtdicwmVc.mp4", poster: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp" },
-          // sunset: { src: "/videos/alfa-nero-sunset.mp4", poster: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp" },
-          // night: { src: "/videos/alfa-nero-night.mp4", poster: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp" },
+          // dawn: { src: "/videos/alfa-nero-dawn.mp4", poster: "/images/exterior-profile.webp" },
+          day: { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/yhLbPaEAtdicwmVc.mp4", poster: "/images/exterior-profile.webp" },
+          // sunset: { src: "/videos/alfa-nero-sunset.mp4", poster: "/images/exterior-profile.webp" },
+          // night: { src: "/videos/alfa-nero-night.mp4", poster: "/images/exterior-profile.webp" },
         }}
-        fallbackImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp"
-        fallbackImageSrcset="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/MvOHZGFGQjAkJHjh.webp 480w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/LnfYFWyXwKbasrKp.webp 960w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.webp 1920w"
+        fallbackImage="/images/exterior-profile.webp"
+        fallbackImageSrcset="/images/exterior-profile.webp 480w, /images/exterior-profile.webp 960w, /images/exterior-profile.webp 1920w"
         fallbackImageSizes="100vw"
         imageAlt="ALFA NERO 82m Oceanco Superyacht"
         overlayStyle="gradient"
@@ -180,7 +180,7 @@ export default function Home() {
               <div className="image-frame overflow-hidden rounded-sm">
   <LazyVideo
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/FEhBZRqIoMCAPrMv.mp4"
-                  poster="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/tdiSoERkjbuufbfY.webp"
+                  poster="/images/pool-deck-evening.webp"
                   posterAlt="ALFA NERO stern deck with water toys"
                   className="w-full aspect-video"
                 />
@@ -198,8 +198,8 @@ export default function Home() {
             <div className="block">
               <div className="image-frame aspect-[3/4] mb-8 overflow-hidden">
                 <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/eNJnPZWeGRATLlPP.webp" 
-                  srcSet="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/TpIlOOFqRZWKqYjC.webp 480w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/lKOYgjLgvGpANyub.webp 960w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/urzFiYPfYZgNPzER.webp 1920w"
+                  src="/images/main-master-cabin.webp" 
+                  srcSet="/images/main-master-cabin.webp 480w, /images/main-master-cabin.webp 960w, /images/main-master-cabin.webp 1920w"
                   sizes="(max-width: 640px) 480px, (max-width: 1024px) 960px, 1920px"
                   alt="ALFA NERO master cabin by Alberto Pinto with panoramic ocean views" 
                   className="w-full h-full object-cover" 
@@ -278,7 +278,7 @@ export default function Home() {
           <div ref={poolVideoRef} className="aspect-[4/3] sm:aspect-[16/9] md:aspect-[21/8] relative overflow-hidden">
             <LazyVideo
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/hiCbFoBlCNcIHhCI.mp4"
-              poster="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/cMjDvuvncDCVqukW.webp"
+              poster="/images/exterior-2.webp"
               posterAlt="ALFA NERO infinity pool with sun loungers and Maltese flag"
               className="absolute inset-0 w-full h-full"
             />
@@ -395,8 +395,8 @@ export default function Home() {
                 />
                 {/* 3D perspective drawing for mobile */}
                 <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/YoxdiNMevOMQgkXZ.webp" 
-                  srcSet="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/QRvqEeChXxkFDgmR.webp 256w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/EvCHUxOoIhWYmUDw.webp 512w, https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/YoxdiNMevOMQgkXZ.webp 1024w"
+                  src="/images/nuvolari-lenard-founders.webp" 
+                  srcSet="/images/nuvolari-lenard-founders.webp 256w, /images/nuvolari-lenard-founders.webp 512w, /images/nuvolari-lenard-founders.webp 1024w"
                   sizes="(max-width: 768px) 100vw, 0px"
                   alt="ALFA NERO superyacht 3D rendering showing hull and superstructure design" 
                   className="md:hidden w-full h-auto"

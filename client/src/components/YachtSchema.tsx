@@ -28,8 +28,8 @@ export default function YachtSchema() {
       },
       "category": "Luxury Superyacht",
       "image": [
-        "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/kZTRjDHOrESFtISr.jpg",
-        "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/AA_0536.jpg"
+        "https://alfaneroyacht.com/images/exterior-profile.jpg",
+        "https://alfaneroyacht.com/images/AA_0536.jpg"
       ],
       "offers": {
         "@type": "Offer",

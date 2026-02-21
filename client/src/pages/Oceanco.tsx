@@ -28,14 +28,14 @@ export default function Oceanco() {
         title="Oceanco - Builder | ALFA NERO"
         description="Oceanco: the Dutch shipyard behind ALFA NERO. Founded in 1987, Oceanco has delivered over 30 superyachts exceeding 80 metres, combining Dutch engineering precision with bold design vision."
       
-        preloadImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/JnaEPBZmZHEIWFkA.webp"
+        preloadImage="/images/oceanco-engineering-wireframe.webp"
       />
       <Navigation />
       
       {/* Video Hero */}
       <VideoHero
         videoSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/tceNeIAqyfTOOFPe.mp4"
-        imageSrc="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/AAjrViYKcZpakgqe.webp"
+        imageSrc="/images/alfa-nero-oceanco-pool.webp"
       >
         <div className="container text-center max-w-4xl px-4">
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Design & Build</p>
@@ -123,7 +123,7 @@ export default function Oceanco() {
           {/* Image Break */}
           <div className="my-16">
             <ArticleImage
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/RVRswktGrShNsrof.jpg"
+              src="/images/exterior-profile.jpg"
               alt="ALFA NERO Front Profile"
               caption="ALFA NERO bow profile | Source: Oceanco"
               className="aspect-[16/9]"
