@@ -1,6 +1,7 @@
 /**
  * Brochure Download Modal with Email Gateway
  * Captures lead information before allowing brochure download
+ * Works client-side (no backend required for static deployment)
  */
 
 import { useState } from "react";
@@ -8,8 +9,9 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { trpc } from "@/lib/trpc";
 import { Download, Loader2 } from "lucide-react";
+
+const BROCHURE_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/cwAqWBhmnJWJrnNP.pdf";
 
 interface BrochureDownloadModalProps {
   open: boolean;
@@ -20,39 +22,37 @@ export default function BrochureDownloadModal({ open, onOpenChange }: BrochureDo
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [submitted, setSubmitted] = useState(false);
-
-  const captureLead = trpc.brochure.captureLead.useMutation({
-    onSuccess: (data: { success: boolean; brochureUrl?: string }) => {
-      setSubmitted(true);
-      // Download brochure after successful email capture
-      if (data.brochureUrl) {
-        window.open(data.brochureUrl, '_blank');
-        
-        // Track brochure download event in Google Analytics
-        if (typeof window !== 'undefined' && (window as any).gtag) {
-          (window as any).gtag('event', 'brochure_download', {
-            event_category: 'engagement',
-            event_label: 'ALFA NERO Brochure',
-            user_email: email,
-            user_name: name,
-          });
-        }
-      }
-      // Reset form after 3 seconds and close modal
-      setTimeout(() => {
-        setEmail("");
-        setName("");
-        setSubmitted(false);
-        onOpenChange(false);
-      }, 3000);
-    },
-  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !name) return;
-    
-    captureLead.mutate({ email, name });
+
+    setIsSubmitting(true);
+
+    // Track brochure download event in Google Analytics
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'brochure_download', {
+        event_category: 'engagement',
+        event_label: 'ALFA NERO Brochure',
+        user_email: email,
+        user_name: name,
+      });
+    }
+
+    // Open brochure PDF directly
+    window.open(BROCHURE_URL, '_blank');
+
+    setSubmitted(true);
+    setIsSubmitting(false);
+
+    // Reset form after 3 seconds and close modal
+    setTimeout(() => {
+      setEmail("");
+      setName("");
+      setSubmitted(false);
+      onOpenChange(false);
+    }, 3000);
   };
 
   return (
@@ -76,7 +76,7 @@ export default function BrochureDownloadModal({ open, onOpenChange }: BrochureDo
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                disabled={captureLead.isPending}
+                disabled={isSubmitting}
               />
             </div>
 
@@ -89,22 +89,16 @@ export default function BrochureDownloadModal({ open, onOpenChange }: BrochureDo
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                disabled={captureLead.isPending}
+                disabled={isSubmitting}
               />
             </div>
-
-            {captureLead.error && (
-              <p className="text-sm text-destructive">
-                {captureLead.error.message}
-              </p>
-            )}
 
             <Button
               type="submit"
               className="w-full"
-              disabled={captureLead.isPending || !email || !name}
+              disabled={isSubmitting || !email || !name}
             >
-              {captureLead.isPending ? (
+              {isSubmitting ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   Processing...
@@ -118,7 +112,7 @@ export default function BrochureDownloadModal({ open, onOpenChange }: BrochureDo
             </Button>
 
             <p className="text-xs text-muted-foreground text-center">
-              By downloading, you agree to receive information about ALFA NERO. 
+              By downloading, you agree to receive information about ALFA NERO.
               Your information will be kept confidential.
             </p>
           </form>
