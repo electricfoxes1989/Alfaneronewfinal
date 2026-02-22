@@ -31,15 +31,24 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# Block AI training crawlers (optional - remove if you want AI indexing)
+# Allow AI search crawlers for GEO (Generative Engine Optimization)
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
-User-agent: CCBot
-Disallow: /
+User-agent: Google-Extended
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /

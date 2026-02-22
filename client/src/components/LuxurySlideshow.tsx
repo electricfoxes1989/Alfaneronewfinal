@@ -145,7 +145,7 @@ export default function LuxurySlideshow({
           <p className="text-xs tracking-[0.2em] uppercase text-white/70 mb-2">
             {String(currentIndex + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}
           </p>
-          <h3 className="text-xl md:text-2xl font-light mb-1" style={{ fontFamily: "'Jost', sans-serif" }}>
+          <h3 className="text-xl md:text-2xl font-light mb-1" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>
             {slides[currentIndex].caption}
           </h3>
           {slides[currentIndex].subcaption && (

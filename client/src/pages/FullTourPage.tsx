@@ -25,14 +25,14 @@ export default function FullTourPage() {
         <div className="relative container text-center z-10 max-w-4xl px-4">
           <p 
             className="text-white/60 text-xs tracking-[0.3em] uppercase mb-2"
-            style={{ fontFamily: "'Jost', sans-serif" }}
+            style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
           >
             Experience
           </p>
           <h1 
             className="text-white mb-3 leading-none"
             style={{ 
-              fontFamily: "'Cantata One', serif",
+              fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif",
               fontSize: 'clamp(2.5rem, 8vw, 5rem)',
               fontWeight: 400,
               letterSpacing: '0.02em'
@@ -42,7 +42,7 @@ export default function FullTourPage() {
           </h1>
           <p 
             className="text-white/70 text-sm md:text-base"
-            style={{ fontFamily: "'Jost', sans-serif" }}
+            style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
           >
             82 Metres · Oceanco · 2007/2024
           </p>
@@ -67,7 +67,7 @@ export default function FullTourPage() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 
               className="text-2xl md:text-3xl mb-6"
-              style={{ fontFamily: "'Cantata One', serif" }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
             >
               Step Onboard ALFA NERO
             </h2>
@@ -80,33 +80,33 @@ export default function FullTourPage() {
           <div className="border-t border-foreground/10 pt-16">
             <h3 
               className="text-center text-xs tracking-[0.3em] uppercase text-foreground/50 mb-10"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               Continue Exploring
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="/master-cabin" className="group block p-6 border border-foreground/10 hover:border-[#C41E3A]/50 transition-all duration-300 hover:bg-foreground/5">
-                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', sans-serif" }}>Accommodation</p>
-                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>Master Cabin</h4>
+                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Accommodation</p>
+                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>Master Cabin</h4>
                 <p className="text-sm text-foreground/60">The owner's private retreat</p>
               </Link>
 
               <Link href="/deck-space" className="group block p-6 border border-foreground/10 hover:border-[#C41E3A]/50 transition-all duration-300 hover:bg-foreground/5">
-                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', sans-serif" }}>Exterior</p>
-                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>Deck Spaces</h4>
+                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Exterior</p>
+                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>Deck Spaces</h4>
                 <p className="text-sm text-foreground/60">Infinity pool & outdoor living</p>
               </Link>
 
               <Link href="/wellness" className="group block p-6 border border-foreground/10 hover:border-[#C41E3A]/50 transition-all duration-300 hover:bg-foreground/5">
-                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', sans-serif" }}>Lifestyle</p>
-                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>Wellness</h4>
+                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Lifestyle</p>
+                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>Wellness</h4>
                 <p className="text-sm text-foreground/60">Spa, gym & relaxation</p>
               </Link>
 
               <Link href="/gallery" className="group block p-6 border border-foreground/10 hover:border-[#C41E3A]/50 transition-all duration-300 hover:bg-foreground/5">
-                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', sans-serif" }}>Media</p>
-                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>Gallery</h4>
+                <p className="text-xs tracking-[0.2em] uppercase text-foreground/50 mb-2" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Media</p>
+                <h4 className="text-lg mb-2 group-hover:text-[#C41E3A] transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>Gallery</h4>
                 <p className="text-sm text-foreground/60">Full photo collection</p>
               </Link>
             </div>
@@ -119,19 +119,19 @@ export default function FullTourPage() {
         <div className="container max-w-6xl px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', serif" }}>82m</p>
+              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>82m</p>
               <p className="text-xs tracking-[0.2em] uppercase text-white/50">Length</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', serif" }}>12</p>
+              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>12</p>
               <p className="text-xs tracking-[0.2em] uppercase text-white/50">Guests</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', serif" }}>6</p>
+              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>6</p>
               <p className="text-xs tracking-[0.2em] uppercase text-white/50">Cabins</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', serif" }}>2024</p>
+              <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>2024</p>
               <p className="text-xs tracking-[0.2em] uppercase text-white/50">Refit</p>
             </div>
           </div>

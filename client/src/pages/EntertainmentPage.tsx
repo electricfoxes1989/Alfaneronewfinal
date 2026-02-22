@@ -36,7 +36,7 @@ export default function EntertainmentPage() {
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Entertainment Spaces</p>
           <h1 
             className="text-4xl md:text-5xl lg:text-7xl font-light leading-none mb-3 text-white"
-            style={{ fontFamily: "'Cantata One', serif" }}
+            style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
           >
             Where Memories Are Made
           </h1>

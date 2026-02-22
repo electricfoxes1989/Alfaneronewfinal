@@ -45,14 +45,14 @@ export default function BrochurePage() {
           <div className={`${visible ? "fade-up visible" : "fade-up"}`}>
             <p
               className="text-white/50 text-xs tracking-[0.3em] uppercase mb-4"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               Digital Brochure
             </p>
             <h1
               className="text-white mb-4 leading-[0.9]"
               style={{
-                fontFamily: "'Cantata One', serif",
+                fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif",
                 fontSize: "clamp(2.5rem, 8vw, 5rem)",
                 fontWeight: 400,
               }}
@@ -61,7 +61,7 @@ export default function BrochurePage() {
             </h1>
             <p
               className="text-white/70 text-base md:text-lg max-w-xl"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               82 Metres · Oceanco · Built 2007 · Refitted 2024
             </p>
@@ -75,13 +75,13 @@ export default function BrochurePage() {
           <div className={`text-center ${visible ? "fade-up visible" : "fade-up"}`}>
             <p
               className="text-red-600 text-xs tracking-[0.3em] uppercase mb-6 font-bold"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               An Oceanco Icon
             </p>
             <h2
               className="text-foreground mb-8"
-              style={{ fontFamily: "'Cantata One', serif" }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
             >
               A Vessel Without Equal
             </h2>
@@ -107,32 +107,32 @@ export default function BrochurePage() {
           <div className="text-center mb-16">
             <p
               className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               Specifications
             </p>
-            <h2 style={{ fontFamily: "'Cantata One', serif" }}>At a Glance</h2>
+            <h2 style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>At a Glance</h2>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-16">
             <div className="text-center">
               <Ruler className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>82m</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>82m</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Length Overall</p>
             </div>
             <div className="text-center">
               <Anchor className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>14.20m</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>14.20m</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Beam</p>
             </div>
             <div className="text-center">
               <Gauge className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>20 kts</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>20 kts</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Max Speed</p>
             </div>
             <div className="text-center">
               <Wind className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>5,500nm</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>5,500nm</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Range</p>
             </div>
           </div>
@@ -140,20 +140,20 @@ export default function BrochurePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
             <div className="text-center">
               <Users className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>12</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>12</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Guests</p>
             </div>
             <div className="text-center">
               <Waves className="w-6 h-6 mx-auto mb-3 text-red-500" />
-              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', serif" }}>6</p>
+              <p className="text-2xl md:text-3xl font-light mb-1" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>6</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Staterooms</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-light mb-1 mt-9" style={{ fontFamily: "'Cantata One', serif" }}>28</p>
+              <p className="text-2xl md:text-3xl font-light mb-1 mt-9" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>28</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Crew</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-light mb-1 mt-9" style={{ fontFamily: "'Cantata One', serif" }}>2,159 GT</p>
+              <p className="text-2xl md:text-3xl font-light mb-1 mt-9" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>2,159 GT</p>
               <p className="text-[10px] tracking-[0.2em] uppercase text-white/40 font-bold">Gross Tonnage</p>
             </div>
           </div>
@@ -175,13 +175,13 @@ export default function BrochurePage() {
           <div className="text-center mb-16">
             <p
               className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               Design Heritage
             </p>
             <h2
               className="text-foreground"
-              style={{ fontFamily: "'Cantata One', serif" }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
             >
               Three Houses, One Vision
             </h2>
@@ -200,7 +200,7 @@ export default function BrochurePage() {
               </div>
               <h3
                 className="text-lg mb-3"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Oceanco
               </h3>
@@ -229,7 +229,7 @@ export default function BrochurePage() {
               </div>
               <h3
                 className="text-lg mb-3"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Nuvolari Lenard
               </h3>
@@ -258,7 +258,7 @@ export default function BrochurePage() {
               </div>
               <h3
                 className="text-lg mb-3"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Alberto Pinto
               </h3>
@@ -295,13 +295,13 @@ export default function BrochurePage() {
           <div className="text-center mb-16">
             <p
               className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               Accommodation
             </p>
             <h2
               className="text-foreground mb-6"
-              style={{ fontFamily: "'Cantata One', serif" }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
             >
               Life Onboard
             </h2>
@@ -323,7 +323,7 @@ export default function BrochurePage() {
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-lg mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>
+              <h3 className="text-lg mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>
                 Owner's Suite
               </h3>
               <p className="text-foreground/60 text-sm leading-relaxed">
@@ -343,7 +343,7 @@ export default function BrochurePage() {
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-lg mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>
+              <h3 className="text-lg mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>
                 Guest Staterooms
               </h3>
               <p className="text-foreground/60 text-sm leading-relaxed">
@@ -362,13 +362,13 @@ export default function BrochurePage() {
           <div className="text-center mb-16">
             <p
               className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-              style={{ fontFamily: "'Jost', sans-serif" }}
+              style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
             >
               Lifestyle
             </p>
             <h2
               className="text-foreground"
-              style={{ fontFamily: "'Cantata One', serif" }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
             >
               Beyond Expectation
             </h2>
@@ -384,7 +384,7 @@ export default function BrochurePage() {
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-base mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>
+              <h3 className="text-base mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>
                 Outdoor Living
               </h3>
               <p className="text-foreground/60 text-sm leading-relaxed">
@@ -402,7 +402,7 @@ export default function BrochurePage() {
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-base mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>
+              <h3 className="text-base mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>
                 Wellness
               </h3>
               <p className="text-foreground/60 text-sm leading-relaxed">
@@ -420,7 +420,7 @@ export default function BrochurePage() {
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-base mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', serif" }}>
+              <h3 className="text-base mb-2 group-hover:text-red-600 transition-colors" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>
                 Entertainment
               </h3>
               <p className="text-foreground/60 text-sm leading-relaxed">
@@ -437,13 +437,13 @@ export default function BrochurePage() {
         <div className="container max-w-4xl text-center">
           <p
             className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-            style={{ fontFamily: "'Jost', sans-serif" }}
+            style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
           >
             Recognition
           </p>
           <h2
             className="mb-12"
-            style={{ fontFamily: "'Cantata One', serif" }}
+            style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
           >
             Seven International Awards
           </h2>
@@ -474,13 +474,13 @@ export default function BrochurePage() {
         <div className="container max-w-3xl text-center">
           <p
             className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-            style={{ fontFamily: "'Jost', sans-serif" }}
+            style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
           >
             Download
           </p>
           <h2
             className="text-foreground mb-6"
-            style={{ fontFamily: "'Cantata One', serif" }}
+            style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
           >
             Take ALFA NERO With You
           </h2>
@@ -511,7 +511,7 @@ export default function BrochurePage() {
         <div className="container max-w-5xl">
           <h3
             className="text-center text-xs tracking-[0.3em] uppercase text-foreground/50 mb-10"
-            style={{ fontFamily: "'Jost', sans-serif" }}
+            style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
           >
             Continue Exploring
           </h3>
@@ -522,7 +522,7 @@ export default function BrochurePage() {
             >
               <h4
                 className="text-sm mb-1 group-hover:text-red-600 transition-colors"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 History
               </h4>
@@ -534,7 +534,7 @@ export default function BrochurePage() {
             >
               <h4
                 className="text-sm mb-1 group-hover:text-red-600 transition-colors"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Technical
               </h4>
@@ -546,7 +546,7 @@ export default function BrochurePage() {
             >
               <h4
                 className="text-sm mb-1 group-hover:text-red-600 transition-colors"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Video Tour
               </h4>
@@ -558,7 +558,7 @@ export default function BrochurePage() {
             >
               <h4
                 className="text-sm mb-1 group-hover:text-red-600 transition-colors"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Acquisition
               </h4>

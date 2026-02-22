@@ -88,6 +88,7 @@ export default function Home() {
         fallbackImageSrcset="/images/exterior-profile.webp 480w, /images/exterior-profile.webp 960w, /images/exterior-profile.webp 1920w"
         fallbackImageSizes="100vw"
         imageAlt="ALFA NERO 82m Oceanco Superyacht"
+        heightClass="aspect-square w-full"
         overlayStyle="gradient"
         kenBurnsEffect={true}
         parallaxEffect={true}
@@ -97,8 +98,8 @@ export default function Home() {
           <div className="overflow-hidden">
             <h1 
               className="mb-2 leading-[0.85] text-white text-center mx-auto"
-              style={{ 
-                fontFamily: "'Cantata One', serif",
+              style={{
+                fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif",
                 fontSize: 'clamp(3rem, 12vw, 10rem)',
                 fontWeight: 400,
                 letterSpacing: '0.05em',
@@ -112,7 +113,7 @@ export default function Home() {
           <div 
             className="mb-16 text-white font-light uppercase max-w-4xl mx-auto opacity-100"
             style={{ 
-              fontFamily: "'Jost', sans-serif",
+              fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
               textShadow: '0 2px 10px rgba(0,0,0,0.5)'
             }}
           >
@@ -163,7 +164,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
             <div className={`lg:col-span-5 ${visibleSections.has('about') ? 'slide-left visible' : 'slide-left'}`}>
               <p className="section-label mb-4">The Vessel</p>
-              <h2 className="text-foreground mb-8" style={{ fontFamily: "'Cantata One', serif" }}>An Oceanco Icon</h2>
+              <h2 className="text-foreground mb-8" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>An Oceanco Icon</h2>
               <p className="text-lg leading-relaxed mb-6 font-light">
                 A multi-award-winning 82-metre superyacht built by Oceanco and originally commissioned by Greek shipping magnate Theodore Angelopoulos, ALFA NERO remains a benchmark in her class almost two decades after launch. Comprehensively refitted in 2024, she is presented today in strong technical and operational condition.
               </p>
@@ -206,7 +207,7 @@ export default function Home() {
                   loading="lazy"
                 />
               </div>
-              <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-3 font-bold" style={{ fontFamily: "'Jost', sans-serif" }}>Interior</p>
+              <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-3 font-bold" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Interior</p>
               <h4 className="mb-4 text-white font-cantata">Master Cabin</h4>
               <p className="text-white/70 leading-relaxed font-light text-sm mb-6">
                 The owner's suite designed by Alberto Pinto, featuring a private office, walk-in closet, and panoramic ocean views.
@@ -230,7 +231,7 @@ export default function Home() {
                   loading="lazy"
                 />
               </div>
-              <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-3 font-bold" style={{ fontFamily: "'Jost', sans-serif" }}>Accommodations</p>
+              <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-3 font-bold" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Accommodations</p>
               <h4 className="mb-4 text-white font-cantata">Guest Cabins</h4>
               <p className="text-white/70 leading-relaxed font-light text-sm mb-6">
                 Six individually designed guest staterooms across three decks, each a private sanctuary created by Alberto Pinto. A glass-enclosed elevator connects all guest levels.
@@ -254,7 +255,7 @@ export default function Home() {
                   loading="lazy"
                 />
               </div>
-              <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-3 font-bold" style={{ fontFamily: "'Jost', sans-serif" }}>Lifestyle</p>
+              <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-3 font-bold" style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>Lifestyle</p>
               <h4 className="mb-4 text-white font-cantata">Wellness & Amenities</h4>
               <p className="text-white/70 leading-relaxed font-light text-sm mb-6">
                 Complete spa with sauna, massage room, and gym with panoramic views. Beach club, tenders, and extensive toy collection.
@@ -315,13 +316,13 @@ export default function Home() {
             <div className={`text-center ${visibleSections.has('pool-helipad') ? 'fade-up visible' : 'fade-up'}`}>
               <p 
                 className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold"
-                style={{ fontFamily: "'Jost', sans-serif" }}
+                style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
               >
                 Engineering Marvel
               </p>
               <h2 
                 className="text-foreground mb-6"
-                style={{ fontFamily: "'Cantata One', serif" }}
+                style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
               >
                 Pool to Helipad in Minutes
               </h2>
@@ -330,17 +331,17 @@ export default function Home() {
               </p>
               <div className="mt-8 flex justify-center gap-8 text-center">
                 <div>
-                  <p className="text-2xl md:text-3xl font-light text-foreground" style={{ fontFamily: "'Cantata One', serif" }}>90</p>
+                  <p className="text-2xl md:text-3xl font-light text-foreground" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>90</p>
                   <p className="text-xs tracking-[0.2em] uppercase text-foreground/50">Seconds</p>
                 </div>
                 <div className="w-px bg-foreground/20" />
                 <div>
-                  <p className="text-2xl md:text-3xl font-light text-foreground" style={{ fontFamily: "'Cantata One', serif" }}>First</p>
+                  <p className="text-2xl md:text-3xl font-light text-foreground" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>First</p>
                   <p className="text-xs tracking-[0.2em] uppercase text-foreground/50">Of Its Kind</p>
                 </div>
                 <div className="w-px bg-foreground/20" />
                 <div>
-                  <p className="text-2xl md:text-3xl font-light text-foreground" style={{ fontFamily: "'Cantata One', serif" }}>Helipad</p>
+                  <p className="text-2xl md:text-3xl font-light text-foreground" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>Helipad</p>
                   <p className="text-xs tracking-[0.2em] uppercase text-foreground/50">On Board</p>
                 </div>
               </div>
@@ -354,7 +355,7 @@ export default function Home() {
         <div className="container max-w-7xl">
           <div className="text-center mb-12">
             <p className="text-red-600 text-xs tracking-[0.3em] uppercase mb-4 font-bold">Specifications</p>
-            <h2 className="text-foreground" style={{ fontFamily: "'Cantata One', serif" }}>Technical Excellence</h2>
+            <h2 className="text-foreground" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>Technical Excellence</h2>
           </div>
           
           {/* Yacht Drawing with Animated Specs - No Overlapping Layout */}
@@ -445,7 +446,7 @@ export default function Home() {
         <div className="container max-w-7xl">
           <div className="text-center mb-16">
             <p className="section-label mb-4">Life On Deck</p>
-            <h2 className="text-foreground" style={{ fontFamily: "'Cantata One', serif" }}>
+            <h2 className="text-foreground" style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}>
               Outdoor & Adventure
             </h2>
           </div>

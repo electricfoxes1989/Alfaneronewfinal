@@ -21,7 +21,7 @@ export default function Footer() {
           <div>
             <h4 
               className="text-xl mb-4 tracking-[0.08em] text-black hover:text-[#C41E3A] transition-colors cursor-pointer"
-              style={{ fontFamily: "'Cantata One', serif", fontWeight: 400 }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif", fontWeight: 400 }}
             >
               ALFA NERO
             </h4>

@@ -70,7 +70,7 @@ export default function Navigation() {
         <Link 
           href="/" 
           className="text-xl tracking-[0.08em] transition-colors duration-300 font-cantata hover:text-white/80"
-          style={{ fontFamily: "'Cantata One', serif", fontWeight: 400 }}
+          style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif", fontWeight: 400 }}
         >
           ALFA NERO
         </Link>
@@ -78,7 +78,7 @@ export default function Navigation() {
         {/* Desktop Navigation */}
         <div 
           className="hidden lg:flex items-center gap-10 text-xs tracking-[0.2em] uppercase"
-          style={{ fontFamily: "'Jost', sans-serif", fontWeight: 400 }}
+          style={{ fontFamily: "'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", fontWeight: 400 }}
           ref={dropdownRef}
         >
           {/* Overview Dropdown - Consolidates Living Spaces + Accommodations */}

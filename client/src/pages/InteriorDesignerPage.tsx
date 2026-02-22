@@ -42,7 +42,7 @@ export default function InteriorDesignerPage() {
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Design & Build</p>
           <h1 
             className="text-4xl md:text-5xl lg:text-7xl font-light leading-none mb-3 text-white"
-            style={{ fontFamily: "'Cantata One', serif" }}
+            style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
           >
             The Parisian Who Understood Scale
           </h1>

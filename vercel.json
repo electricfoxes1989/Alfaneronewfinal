@@ -37,6 +37,11 @@
     }
   ],
   "rewrites": [
+    { "source": "/llms.txt", "destination": "/llms.txt" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/sitemap-index.xml", "destination": "/sitemap-index.xml" },
+    { "source": "/image-sitemap.xml", "destination": "/image-sitemap.xml" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

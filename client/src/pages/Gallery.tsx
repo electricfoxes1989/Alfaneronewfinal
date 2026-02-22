@@ -246,7 +246,7 @@ export default function Gallery() {
           <p className="text-white/70 text-sm tracking-[0.2em] uppercase mb-2">Photography</p>
           <h1 
             className="text-4xl md:text-5xl lg:text-7xl font-light leading-none mb-3 text-white"
-            style={{ fontFamily: "'Cantata One', serif" }}
+            style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
           >
             Gallery
           </h1>
@@ -328,7 +328,7 @@ export default function Gallery() {
           <div className="text-center mb-12">
             <h3 
               className="text-3xl md:text-4xl font-light mb-4"
-              style={{ fontFamily: "'Cantata One', serif" }}
+              style={{ fontFamily: "'Cantata One', Georgia, 'Times New Roman', serif" }}
             >
               Video Tour
             </h3>
