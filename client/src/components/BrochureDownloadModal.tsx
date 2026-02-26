@@ -11,7 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Download, Loader2 } from "lucide-react";
 
-const BROCHURE_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300921591/cwAqWBhmnJWJrnNP.pdf";
+const BROCHURE_URL = "/docs/ALFA-NERO-Brochure.pdf";
 
 interface BrochureDownloadModalProps {
   open: boolean;
