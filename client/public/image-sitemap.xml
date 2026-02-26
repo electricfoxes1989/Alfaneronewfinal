@@ -27,11 +27,6 @@
       <image:title>Evening Shot</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://alfaneroyacht.com/images/exterior-early-evening.jpg</image:loc>
-      <image:caption>ALFA NERO Early Evening - 82m Oceanco Superyacht</image:caption>
-      <image:title>Early Evening</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://alfaneroyacht.com/images/aft.jpg</image:loc>
       <image:caption>ALFA NERO Aft View - 82m Oceanco Superyacht</image:caption>
       <image:title>Aft View</image:title>
@@ -57,16 +52,6 @@
       <image:loc>https://alfaneroyacht.com/images/DJI_20250911072413_0014_D.jpg</image:loc>
       <image:caption>ALFA NERO Aerial Overhead - 82m Oceanco Superyacht</image:caption>
       <image:title>Aerial Overhead</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://alfaneroyacht.com/images/DJI_20250911072413_0014_D.jpg</image:loc>
-      <image:caption>ALFA NERO Drone Shot - 82m Oceanco Superyacht</image:caption>
-      <image:title>Drone Shot</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://alfaneroyacht.com/images/DJI_20250911101923_0042_D.jpg</image:loc>
-      <image:caption>ALFA NERO Aerial Perspective - 82m Oceanco Superyacht</image:caption>
-      <image:title>Aerial Perspective</image:title>
     </image:image>
     <image:image>
       <image:loc>https://alfaneroyacht.com/images/A%20N%2030.jpg</image:loc>
@@ -165,17 +150,7 @@
       <image:caption>ALFA NERO Sky Lounge TV - Alberto Pinto Interior Design</image:caption>
       <image:title>Sky Lounge TV</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://alfaneroyacht.com/images/private-dining.jpg</image:loc>
-      <image:caption>ALFA NERO Dining Room Panoramic - Alberto Pinto Interior Design</image:caption>
-      <image:title>Dining Room Panoramic</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://alfaneroyacht.com/images/guest-room.jpg</image:loc>
-      <image:caption>ALFA NERO Guest Cabin Coral - Alberto Pinto Interior Design</image:caption>
-      <image:title>Guest Cabin Coral</image:title>
-    </image:image>
-    
+
     <!-- Technical & Crew Images -->
     <image:image>
       <image:loc>https://alfaneroyacht.com/images/CREW%20Area.jpg</image:loc>
@@ -210,11 +185,6 @@
     
     <!-- Wellness Images -->
     <image:image>
-      <image:loc>https://alfaneroyacht.com/images/aft-deck-pool.jpg</image:loc>
-      <image:caption>ALFA NERO Aft Deck Pool - 82m Oceanco Superyacht</image:caption>
-      <image:title>Aft Deck Pool</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://alfaneroyacht.com/images/pool-deck-evening.webp</image:loc>
       <image:caption>ALFA NERO Infinity Pool Sunset - 82m Oceanco Superyacht</image:caption>
       <image:title>Infinity Pool Sunset</image:title>
@@ -243,11 +213,6 @@
       <image:loc>https://alfaneroyacht.com/images/Spa.jpg</image:loc>
       <image:caption>ALFA NERO Spa - 82m Oceanco Superyacht</image:caption>
       <image:title>Spa</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://alfaneroyacht.com/images/Spa.jpg</image:loc>
-      <image:caption>ALFA NERO Sauna - 82m Oceanco Superyacht</image:caption>
-      <image:title>Sauna</image:title>
     </image:image>
   </url>
 </urlset>
